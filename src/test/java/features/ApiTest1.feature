@@ -18,7 +18,7 @@ Feature: exchange rate api tests
     And match header Connection == 'keep-alive'
     #header verify
     And match header Date == '#present'
-  @wip
+
    Scenario: json body verification
     Given url 'https://api.exchangeratesapi.io/2010-01-12'
     When method GET
