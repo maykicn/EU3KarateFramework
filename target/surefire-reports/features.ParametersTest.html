@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+      
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+            
+        <meta charset="utf-8">
+            
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+            
+        <link href="res/bootstrap.min.css" rel="stylesheet" type="text/css">
+            
+        <link href="res/karate-report.css" rel="stylesheet" type="text/css">
+            
+        <link href="favicon.ico" rel="shortcut icon">
+            <script src="res/jquery.min.js" type="text/javascript"></script>
+    <script src="res/jquery.tablesorter.min.js" type="text/javascript"></script>
+    <script src="res/bootstrap.min.js" type="text/javascript"></script>
+    <script src="res/karate-report.js" type="text/javascript"></script>
+    
+        <title>features.ParametersTest</title>
+          
+    </head>
+      
+    <body>
+            
+        <div id="root-container">
+                  
+            <div id="leftnav">
+                        
+                <div class="nav-logo">
+                              <a href="karate-summary.html">
+            <img alt="Karate" src="res/karate-logo.svg">
+          </a>
+          
+                    <div class="nav-count">
+                                    
+                        <div class="bg-success" id="nav-pass">1</div>
+                                    
+                        <div class="bg-danger" id="nav-fail">0</div>
+                                  
+                    </div>
+                            
+                </div>
+                        
+                <div id="nav-type">Scenarios</div>
+                         
+        
+                <div id="nav-date">2021-01-26 11:06:09 PM</div>
+                        
+      
+                <div class="nav-container">
+                    <div class="nav-item passed">
+                        <a href="#[7:73]">[7:73] hr regions example </a>
+                    </div>
+                </div>
+            </div>
+                  
+            <div id="content">
+                      
+                <div class="page-heading alert alert-primary">
+                    <a href="karate-summary.html">Summary</a><span class="feature-label">|</span><a href="karate-tags.html">Tags</a><span class="feature-label">|</span><span class="feature-label">Feature:</span><span class="feature-name">features/ParametersTest.feature</span><span class="feature-description">Parameters examples</span>
+                </div>
+                <div class="scenario">
+                    <div class="scenario-heading" id="[7:73]">
+                        <div class="heading-container">
+                            <div class="scenario-tags">
+                                <a class="badge badge-primary" href="karate-tags.html">wip</a>
+                            </div>
+                            <span class="scenario-keyword">Scenario: [7:73]</span><span class="scenario-name">hr regions example </span>
+                        </div>
+                        <div class="scenario-time passed">ms: 16347</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="[7:73]bg">
+                            <div class="step-ref bg-step">&gt;&gt;</div>
+                            <div class="step-cell passed">Background:</div>
+                        </div>
+                        <div class="time-cell passed"></div>
+                    </div>
+                    <div class="step-row" data-parent="[7:73]bg">
+                        <div class="step-container" id="1">
+                            <div class="step-ref bg-step">1</div>
+                            <div class="step-cell passed">* def baseUrl = 'https://api.exchangeratesapi.io'</div>
+                        </div>
+                        <div class="time-cell passed">13</div>
+                    </div>
+                    <div class="preformatted" data-parent="1">23:05:52.995 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</div>
+                    <div class="step-row" data-parent="[7:73]bg">
+                        <div class="step-container" id="2">
+                            <div class="step-ref bg-step">2</div>
+                            <div class="step-cell passed">* def spartanUrl = 'http://3.80.189.73:8000'</div>
+                        </div>
+                        <div class="time-cell passed">8</div>
+                    </div>
+                    <div class="step-row" data-parent="[7:73]bg">
+                        <div class="step-container" id="3">
+                            <div class="step-ref bg-step">3</div>
+                            <div class="step-cell passed">* def hrUrl = 'http://3.80.189.73:1000/ords/hr'</div>
+                        </div>
+                        <div class="time-cell passed">5</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="4">
+                            <div class="step-ref passed">4</div>
+                            <div class="step-cell passed">Given url hrUrl</div>
+                        </div>
+                        <div class="time-cell passed">1</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="5">
+                            <div class="step-ref passed">5</div>
+                            <div class="step-cell passed">And path 'regions'</div>
+                        </div>
+                        <div class="time-cell passed">5</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="6">
+                            <div class="step-ref passed">6</div>
+                            <div class="step-cell passed">When method GET</div>
+                        </div>
+                        <div class="time-cell passed">16285</div>
+                    </div>
+                    <div class="preformatted" data-parent="6">23:05:53.651 request:
+1 &gt; GET http://3.80.189.73:1000/ords/hr/regions
+1 &gt; Accept-Encoding: gzip,deflate
+1 &gt; Connection: Keep-Alive
+1 &gt; Host: 3.80.189.73:1000
+1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/13.0.1)
+
+23:06:08.127 response time in milliseconds: 14473.58
+1 &lt; 301
+1 &lt; Location: http://3.80.189.73:1000/ords/hr/regions/
+1 &lt; Transfer-Encoding: chunked
+
+23:06:08.133 request:
+2 &gt; GET http://3.80.189.73:1000/ords/hr/regions
+2 &gt; Accept-Encoding: gzip,deflate
+2 &gt; Connection: Keep-Alive
+2 &gt; Host: 3.80.189.73:1000
+2 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/13.0.1)
+
+23:06:09.272 response time in milliseconds: 1095.90
+2 &lt; 200
+2 &lt; Content-Type: application/json
+2 &lt; Date: Tue, 26 Jan 2021 22:06:08 GMT
+2 &lt; ETag: "o56iS/7pjmvDYdj36bBbq4adu9hIbJZZHAmVdAWNB9mJpitSyx59gAtRYsbnoj3EfH9095sc/W4KO5LNIdql2g=="
+2 &lt; Transfer-Encoding: chunked
+{"items":[{"region_id":1,"region_name":"Europe","links":[{"rel":"self","href":"http://3.80.189.73:1000/ords/hr/regions/1"}]},{"region_id":2,"region_name":"Americas","links":[{"rel":"self","href":"http://3.80.189.73:1000/ords/hr/regions/2"}]},{"region_id":3,"region_name":"Asia","links":[{"rel":"self","href":"http://3.80.189.73:1000/ords/hr/regions/3"}]},{"region_id":4,"region_name":"Middle East and Africa","links":[{"rel":"self","href":"http://3.80.189.73:1000/ords/hr/regions/4"}]},{"region_id":75,"region_name":"randomregion","links":[{"rel":"self","href":"http://3.80.189.73:1000/ords/hr/regions/75"}]},{"region_id":7,"region_name":"KOOOLORADOO","links":[{"rel":"self","href":"http://3.80.189.73:1000/ords/hr/regions/7"}]},{"region_id":10,"region_name":"Cybertek Germany","links":[{"rel":"self","href":"http://3.80.189.73:1000/ords/hr/regions/10"}]},{"region_id":252,"region_name":"CyberGermany","links":[{"rel":"self","href":"http://3.80.189.73:1000/ords/hr/regions/252"}]},{"region_id":30,"region_name":"Cybertek Germany","links":[{"rel":"self","href":"http://3.80.189.73:1000/ords/hr/regions/30"}]}],"hasMore":false,"limit":25,"offset":0,"count":9,"links":[{"rel":"self","href":"http://3.80.189.73:1000/ords/hr/regions/"},{"rel":"edit","href":"http://3.80.189.73:1000/ords/hr/regions/"},{"rel":"describedby","href":"http://3.80.189.73:1000/ords/hr/metadata-catalog/regions/"},{"rel":"first","href":"http://3.80.189.73:1000/ords/hr/regions/"}]}</div>
+                    <div class="step-row">
+                        <div class="step-container" id="7">
+                            <div class="step-ref passed">7</div>
+                            <div class="step-cell passed">Then status 200</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container">
+                            <div class="step-ref passed"></div>
+                            <div class="step-cell comment">#And print response</div>
+                        </div>
+                        <div class="time-cell comment"></div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="8">
+                            <div class="step-ref passed">8</div>
+                            <div class="step-cell passed">And match response.limit == 25</div>
+                        </div>
+                        <div class="time-cell passed">23</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="9">
+                            <div class="step-ref passed">9</div>
+                            <div class="step-cell passed">And match each response.items[*].region_id == '#number'</div>
+                        </div>
+                        <div class="time-cell passed">7</div>
+                    </div>
+                </div>
+            </div>
+                
+        </div>
+           
+  
+    </body>
+    
+</html>

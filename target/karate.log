@@ -1,0 +1,63 @@
+23:36:33.944 [main] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+23:36:34.717 [main] DEBUG com.intuit.karate - request:
+1 > POST http://3.80.189.73:8000/api/spartans
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 53
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: 3.80.189.73:8000
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/13.0.1)
+{"gender":"Female","phone":499715545,"name":"Graham"}
+
+23:36:35.014 [main] DEBUG com.intuit.karate - response time in milliseconds: 291.75
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 27 Jan 2021 22:36:32 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2021-01-27T22:36:32.049+0000","status":400,"error":"Bad Request","errors":[{"codes":["Min.spartan.phone","Min.phone","Min.long","Min"],"arguments":[{"codes":["spartan.phone","phone"],"arguments":null,"defaultMessage":"phone","code":"phone"},1000000000],"defaultMessage":"Phone number should be at least 10 digit and UNIQUE!!","objectName":"spartan","field":"phone","rejectedValue":499715545,"bindingFailure":false,"code":"Min"}],"message":"Validation failed for object='spartan'. Error count: 1","path":"/api/spartans"}
+
+23:36:35.023 [main] ERROR com.intuit.karate - status code was: 400, expected: 201, response time: 292, url: http://3.80.189.73:8000/api/spartans, response: {"path":"/api/spartans","error":"Bad Request","message":"Validation failed for object='spartan'. Error count: 1","errors":[{"codes":["Min.spartan.phone","Min.phone","Min.long","Min"],"bindingFailure":false,"code":"Min","field":"phone","defaultMessage":"Phone number should be at least 10 digit and UNIQUE!!","objectName":"spartan","arguments":[{"codes":["spartan.phone","phone"],"code":"phone","defaultMessage":"phone","arguments":null},1000000000],"rejectedValue":499715545}],"timestamp":"2021-01-27T22:36:32.049+0000","status":400}
+23:36:45.022 [main] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+23:36:45.857 [main] DEBUG com.intuit.karate - request:
+1 > POST http://3.80.189.73:8000/api/spartans
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 51
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: 3.80.189.73:8000
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/13.0.1)
+{"gender":"Male","phone":8271552052,"name":"Clair"}
+
+23:36:46.693 [main] DEBUG com.intuit.karate - response time in milliseconds: 831.31
+1 < 201
+1 < Content-Type: application/json
+1 < Date: Wed, 27 Jan 2021 22:36:43 GMT
+1 < Location: http://3.80.189.73:8000/api/spartans/909
+1 < Transfer-Encoding: chunked
+{"success":"A Spartan is Born!","data":{"id":909,"name":"Clair","gender":"Male","phone":8271552052}}
+
+23:36:46.717 [main] INFO  com.intuit.karate - [print] {
+  "data": {
+    "gender": "Male",
+    "phone": 8271552052,
+    "name": "Clair",
+    "id": 909
+  },
+  "success": "A Spartan is Born!"
+}
+
+23:36:46.752 [main] DEBUG com.intuit.karate - request:
+2 > DELETE http://3.80.189.73:8000/api/spartans/909
+2 > Accept-Encoding: gzip,deflate
+2 > Connection: Keep-Alive
+2 > Host: 3.80.189.73:8000
+2 > User-Agent: Apache-HttpClient/4.5.12 (Java/13.0.1)
+
+23:36:47.081 [main] DEBUG com.intuit.karate - response time in milliseconds: 328.96
+2 < 204
+2 < Content-Type: application/json;charset=UTF-8
+2 < Date: Wed, 27 Jan 2021 22:36:43 GMT
+

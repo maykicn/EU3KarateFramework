@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+      
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+            
+        <meta charset="utf-8">
+            
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+            
+        <link href="res/bootstrap.min.css" rel="stylesheet" type="text/css">
+            
+        <link href="res/karate-report.css" rel="stylesheet" type="text/css">
+            
+        <link href="favicon.ico" rel="shortcut icon">
+            <script src="res/jquery.min.js" type="text/javascript"></script>
+    <script src="res/jquery.tablesorter.min.js" type="text/javascript"></script>
+    <script src="res/bootstrap.min.js" type="text/javascript"></script>
+    <script src="res/karate-report.js" type="text/javascript"></script>
+    
+        <title>features.ApiTest1</title>
+          
+    </head>
+      
+    <body>
+            
+        <div id="root-container">
+                  
+            <div id="leftnav">
+                        
+                <div class="nav-logo">
+                              <a href="karate-summary.html">
+            <img alt="Karate" src="res/karate-logo.svg">
+          </a>
+          
+                    <div class="nav-count">
+                                    
+                        <div class="bg-success" id="nav-pass">1</div>
+                                    
+                        <div class="bg-danger" id="nav-fail">0</div>
+                                  
+                    </div>
+                            
+                </div>
+                        
+                <div id="nav-type">Scenarios</div>
+                         
+        
+                <div id="nav-date">2021-01-16 07:23:48 AM</div>
+                        
+      
+                <div class="nav-container">
+                    <div class="nav-item passed">
+                        <a href="#[4:22]">[4:22] json body verification </a>
+                    </div>
+                </div>
+            </div>
+                  
+            <div id="content">
+                      
+                <div class="page-heading alert alert-primary">
+                    <a href="karate-summary.html">Summary</a><span class="feature-label">|</span><a href="karate-tags.html">Tags</a><span class="feature-label">|</span><span class="feature-label">Feature:</span><span class="feature-name">features/ApiTest1.feature</span><span class="feature-description">exchange rate api tests</span>
+                </div>
+                <div class="scenario">
+                    <div class="scenario-heading" id="[4:22]">
+                        <div class="heading-container">
+                            <div class="scenario-tags">
+                                <a class="badge badge-primary" href="karate-tags.html">wip</a>
+                            </div>
+                            <span class="scenario-keyword">Scenario: [4:22]</span><span class="scenario-name">json body verification </span>
+                        </div>
+                        <div class="scenario-time passed">ms: 1134</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="1">
+                            <div class="step-ref passed">1</div>
+                            <div class="step-cell passed">Given url 'https://api.exchangeratesapi.io/2010-01-12'</div>
+                        </div>
+                        <div class="time-cell passed">13</div>
+                    </div>
+                    <div class="preformatted" data-parent="1">07:23:47.353 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</div>
+                    <div class="step-row">
+                        <div class="step-container" id="2">
+                            <div class="step-ref passed">2</div>
+                            <div class="step-cell passed">When method GET</div>
+                        </div>
+                        <div class="time-cell passed">1057</div>
+                    </div>
+                    <div class="preformatted" data-parent="2">07:23:48.020 request:
+1 &gt; GET https://api.exchangeratesapi.io/2010-01-12
+1 &gt; Accept-Encoding: gzip,deflate
+1 &gt; Connection: Keep-Alive
+1 &gt; Host: api.exchangeratesapi.io
+1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/13.0.1)
+
+07:23:48.412 response time in milliseconds: 387.37
+1 &lt; 200
+1 &lt; Access-Control-Allow-Credentials: true
+1 &lt; Access-Control-Allow-Methods: GET
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Age: 1396
+1 &lt; CF-Cache-Status: HIT
+1 &lt; CF-RAY: 6125c010fd701786-FRA
+1 &lt; Cache-Control: max-age=1800
+1 &lt; Connection: keep-alive
+1 &lt; Content-Type: application/json
+1 &lt; Date: Sat, 16 Jan 2021 06:23:52 GMT
+1 &lt; Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 &lt; NEL: {"report_to":"cf-nel","max_age":604800}
+1 &lt; Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=zakIkq4iAi52eZHrDtaptRKosz5ebDrtPXYvzVm7ry6%2FbKnWqI7bOAyEmqd3XoryVns14QWjCObJsVGN8XGvKAjwHsyLhMudU99PF7m76CaniI%2Fc6vdwLA%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 &lt; Server: cloudflare
+1 &lt; Set-Cookie: __cfduid=d2ba97d11e7038ea93bd4e800a10042e91610778232; expires=Mon, 15-Feb-21 06:23:52 GMT; path=/; domain=.exchangeratesapi.io; HttpOnly; SameSite=Lax
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Vary: Accept-Encoding
+1 &lt; cf-request-id: 07ab765e9c000017860a8ab000000001
+{"rates":{"CAD":1.4959,"HKD":11.2301,"LVL":0.7093,"PHP":66.106,"DKK":7.4405,"HUF":268.18,"CZK":26.258,"AUD":1.5668,"RON":4.1405,"SEK":10.2215,"IDR":13281.14,"INR":66.21,"BRL":2.5309,"RUB":42.6974,"LTL":3.4528,"JPY":132.41,"THB":47.839,"CHF":1.4743,"SGD":2.0133,"PLN":4.0838,"BGN":1.9558,"TRY":2.1084,"CNY":9.8863,"NOK":8.1825,"NZD":1.9573,"ZAR":10.8264,"USD":1.4481,"MXN":18.4995,"EEK":15.6466,"GBP":0.8972,"KRW":1627.4,"MYR":4.8424,"HRK":7.2753},"base":"EUR","date":"2010-01-12"}</div>
+                    <div class="step-row">
+                        <div class="step-container" id="3">
+                            <div class="step-ref passed">3</div>
+                            <div class="step-cell passed">Then status 200</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="4">
+                            <div class="step-ref passed">4</div>
+                            <div class="step-cell passed">And match header Content-Type == 'application/json'</div>
+                        </div>
+                        <div class="time-cell passed">26</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="5">
+                            <div class="step-ref passed">5</div>
+                            <div class="step-cell passed">And print response</div>
+                        </div>
+                        <div class="time-cell passed">1</div>
+                    </div>
+                    <div class="preformatted" data-parent="5">07:23:48.475 [print] {
+  "date": "2010-01-12",
+  "rates": {
+    "CHF": 1.4743,
+    "HRK": 7.2753,
+    "MXN": 18.4995,
+    "LVL": 0.7093,
+    "LTL": 3.4528,
+    "ZAR": 10.8264,
+    "INR": 66.21,
+    "THB": 47.839,
+    "CNY": 9.8863,
+    "AUD": 1.5668,
+    "KRW": 1627.4,
+    "JPY": 132.41,
+    "PLN": 4.0838,
+    "GBP": 0.8972,
+    "IDR": 13281.14,
+    "HUF": 268.18,
+    "PHP": 66.106,
+    "TRY": 2.1084,
+    "RUB": 42.6974,
+    "HKD": 11.2301,
+    "DKK": 7.4405,
+    "CAD": 1.4959,
+    "USD": 1.4481,
+    "MYR": 4.8424,
+    "BGN": 1.9558,
+    "EEK": 15.6466,
+    "NOK": 8.1825,
+    "RON": 4.1405,
+    "SGD": 2.0133,
+    "CZK": 26.258,
+    "SEK": 10.2215,
+    "NZD": 1.9573,
+    "BRL": 2.5309
+  },
+  "base": "EUR"
+}</div>
+                    <div class="step-row">
+                        <div class="step-container" id="6">
+                            <div class="step-ref passed">6</div>
+                            <div class="step-cell passed">And print respone.base</div>
+                        </div>
+                        <div class="time-cell passed">23</div>
+                    </div>
+                    <div class="preformatted" data-parent="6">07:23:48.499 [print]</div>
+                    <div class="step-row">
+                        <div class="step-container">
+                            <div class="step-ref passed"></div>
+                            <div class="step-cell comment">#verify base is euro</div>
+                        </div>
+                        <div class="time-cell comment"></div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="7">
+                            <div class="step-ref passed">7</div>
+                            <div class="step-cell passed">And match response.base == 'EUR'</div>
+                        </div>
+                        <div class="time-cell passed">9</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="8">
+                            <div class="step-ref passed">8</div>
+                            <div class="step-cell passed">And match response.rates.USD == 1.4481</div>
+                        </div>
+                        <div class="time-cell passed">5</div>
+                    </div>
+                </div>
+            </div>
+                
+        </div>
+           
+  
+    </body>
+    
+</html>
