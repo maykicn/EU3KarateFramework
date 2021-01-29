@@ -61,3 +61,83 @@
 2 < Content-Type: application/json;charset=UTF-8
 2 < Date: Wed, 27 Jan 2021 22:36:43 GMT
 
+17:00:49.442 [main] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+17:00:50.857 [main] DEBUG com.intuit.karate - request:
+1 > POST http://3.80.189.73:8000/api/spartans
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 50
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: 3.80.189.73:8000
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/13.0.1)
+{"gender":"Male","phone":6918980916,"name":"Luke"}
+
+17:01:09.997 [main] DEBUG com.intuit.karate - response time in milliseconds: 19108.43
+1 < 201
+1 < Content-Type: application/json
+1 < Date: Fri, 29 Jan 2021 16:01:02 GMT
+1 < Location: http://3.80.189.73:8000/api/spartans/910
+1 < Transfer-Encoding: chunked
+{"success":"A Spartan is Born!","data":{"id":910,"name":"Luke","gender":"Male","phone":6918980916}}
+
+17:01:10.035 [main] INFO  com.intuit.karate - [print] {
+  "data": {
+    "gender": "Male",
+    "phone": 6918980916,
+    "name": "Luke",
+    "id": 910
+  },
+  "success": "A Spartan is Born!"
+}
+
+17:01:10.117 [main] DEBUG com.intuit.karate - request:
+2 > DELETE http://3.80.189.73:8000/api/spartans/910
+2 > Accept-Encoding: gzip,deflate
+2 > Connection: Keep-Alive
+2 > Host: 3.80.189.73:8000
+2 > User-Agent: Apache-HttpClient/4.5.12 (Java/13.0.1)
+
+17:01:13.394 [main] DEBUG com.intuit.karate - response time in milliseconds: 3276.16
+2 < 204
+2 < Content-Type: application/json;charset=UTF-8
+2 < Date: Fri, 29 Jan 2021 16:01:05 GMT
+
+17:02:03.381 [main] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+17:02:03.850 [main] DEBUG com.intuit.karate - request:
+1 > GET https://cybertek-reservation-api-qa2.herokuapp.com/sign?email=sbirdbj%40fc2.com&password=asenorval
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: cybertek-reservation-api-qa2.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/13.0.1)
+
+17:02:27.933 [main] DEBUG com.intuit.karate - response time in milliseconds: 24068.92
+1 < 200
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Fri, 29 Jan 2021 16:02:30 GMT
+1 < Server: Jetty(9.4.8.v20171121)
+1 < Via: 1.1 vegur
+{"accessToken":"eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1sZWFkZXIifQ.a_N9URDBPGOMcDdEVoaMHsJtk3jOnig0v0SCtSWcsGE","refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1sZWFkZXIifQ.a_N9URDBPGOMcDdEVoaMHsJtk3jOnig0v0SCtSWcsGE"}
+
+17:02:28.034 [main] INFO  com.intuit.karate - [print]
+17:03:14.187 [main] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+17:03:14.788 [main] DEBUG com.intuit.karate - request:
+1 > GET https://cybertek-reservation-api-qa2.herokuapp.com/sign?email=sbirdbj%40fc2.com&password=asenorval
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: cybertek-reservation-api-qa2.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/13.0.1)
+
+17:03:15.855 [main] DEBUG com.intuit.karate - response time in milliseconds: 1053.67
+1 < 200
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Fri, 29 Jan 2021 16:03:19 GMT
+1 < Server: Jetty(9.4.8.v20171121)
+1 < Via: 1.1 vegur
+{"accessToken":"eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1sZWFkZXIifQ.a_N9URDBPGOMcDdEVoaMHsJtk3jOnig0v0SCtSWcsGE","refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1sZWFkZXIifQ.a_N9URDBPGOMcDdEVoaMHsJtk3jOnig0v0SCtSWcsGE"}
+
+17:03:16.008 [main] INFO  com.intuit.karate - [print] eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1sZWFkZXIifQ.a_N9URDBPGOMcDdEVoaMHsJtk3jOnig0v0SCtSWcsGE

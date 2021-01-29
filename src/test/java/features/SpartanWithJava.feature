@@ -49,7 +49,7 @@ Feature: Karate Java Integration
     #verify names
     And match  response.data.name == newSpartan.name
 
-  @wip
+
   Scenario: Create a spartan with Random data (JAVA) and delete
     * def SDG = Java.type('utilities.SpartanDataGenerator')
     * def newSpartan = SDG.createSpartan()
@@ -70,6 +70,6 @@ Feature: Karate Java Integration
     And path 'api/spartans'
     And path idToDelete
     #we can write together in one line
-      # ** And path 'api/spartans',idToDelete**
+      #  ** And path 'api/spartans',idToDelete**
     When method DELETE
     Then status 204
