@@ -141,3 +141,1074 @@
 {"accessToken":"eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1sZWFkZXIifQ.a_N9URDBPGOMcDdEVoaMHsJtk3jOnig0v0SCtSWcsGE","refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1sZWFkZXIifQ.a_N9URDBPGOMcDdEVoaMHsJtk3jOnig0v0SCtSWcsGE"}
 
 17:03:16.008 [main] INFO  com.intuit.karate - [print] eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1sZWFkZXIifQ.a_N9URDBPGOMcDdEVoaMHsJtk3jOnig0v0SCtSWcsGE
+17:23:02.307 [main] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+17:23:04.002 [main] INFO  com.intuit.karate - [print] eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1sZWFkZXIifQ.a_N9URDBPGOMcDdEVoaMHsJtk3jOnig0v0SCtSWcsGE
+17:23:29.316 [main] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+17:23:30.079 [main] DEBUG com.intuit.karate - request:
+1 > GET https://cybertek-reservation-api-qa2.herokuapp.com/sign?email=sbirdbj%40fc2.com&password=asenorval
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: cybertek-reservation-api-qa2.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/13.0.1)
+
+17:23:31.410 [main] DEBUG com.intuit.karate - response time in milliseconds: 1322.86
+1 < 200
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Fri, 29 Jan 2021 16:23:34 GMT
+1 < Server: Jetty(9.4.8.v20171121)
+1 < Via: 1.1 vegur
+{"accessToken":"eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1sZWFkZXIifQ.a_N9URDBPGOMcDdEVoaMHsJtk3jOnig0v0SCtSWcsGE","refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1sZWFkZXIifQ.a_N9URDBPGOMcDdEVoaMHsJtk3jOnig0v0SCtSWcsGE"}
+
+17:23:31.536 [main] INFO  com.intuit.karate - [print] eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1sZWFkZXIifQ.a_N9URDBPGOMcDdEVoaMHsJtk3jOnig0v0SCtSWcsGE
+19:38:38.806 [main] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+19:38:38.937 [main] INFO  com.intuit.karate - [print] Token From Background 
+19:40:12.049 [main] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+19:40:12.187 [main] INFO  com.intuit.karate - [print] Token From Background 
+19:43:02.336 [main] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+19:43:02.948 [main] DEBUG com.intuit.karate - request:
+1 > GET https://cybertek-reservation-api-qa2.herokuapp.com/sign?email=sbirdbj%40fc2.com&password=asenorval
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: cybertek-reservation-api-qa2.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/13.0.1)
+
+19:43:31.060 [main] DEBUG com.intuit.karate - response time in milliseconds: 28103.96
+1 < 200
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Sat, 30 Jan 2021 18:43:34 GMT
+1 < Server: Jetty(9.4.8.v20171121)
+1 < Via: 1.1 vegur
+{"accessToken":"eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1sZWFkZXIifQ.a_N9URDBPGOMcDdEVoaMHsJtk3jOnig0v0SCtSWcsGE","refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1sZWFkZXIifQ.a_N9URDBPGOMcDdEVoaMHsJtk3jOnig0v0SCtSWcsGE"}
+
+19:43:31.150 [main] INFO  com.intuit.karate - [print] eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1sZWFkZXIifQ.a_N9URDBPGOMcDdEVoaMHsJtk3jOnig0v0SCtSWcsGE
+19:43:31.332 [main] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+19:43:31.379 [main] INFO  com.intuit.karate - [print] Token From Background 
+19:44:49.652 [main] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+19:44:49.718 [main] INFO  com.intuit.karate - [print] Token From Background 
+19:47:03.657 [main] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+19:47:03.730 [main] INFO  com.intuit.karate - [print] Token From Background 
+19:48:29.215 [main] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+19:48:29.696 [main] DEBUG com.intuit.karate - request:
+1 > GET https://cybertek-reservation-api-qa2.herokuapp.com/sign?email=sbirdbj%40fc2.com&password=asenorval
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: cybertek-reservation-api-qa2.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/13.0.1)
+
+19:48:30.661 [main] DEBUG com.intuit.karate - response time in milliseconds: 959.25
+1 < 200
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Sat, 30 Jan 2021 18:48:34 GMT
+1 < Server: Jetty(9.4.8.v20171121)
+1 < Via: 1.1 vegur
+{"accessToken":"eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1sZWFkZXIifQ.a_N9URDBPGOMcDdEVoaMHsJtk3jOnig0v0SCtSWcsGE","refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1sZWFkZXIifQ.a_N9URDBPGOMcDdEVoaMHsJtk3jOnig0v0SCtSWcsGE"}
+
+19:48:30.737 [main] INFO  com.intuit.karate - [print] eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1sZWFkZXIifQ.a_N9URDBPGOMcDdEVoaMHsJtk3jOnig0v0SCtSWcsGE
+19:48:30.757 [main] INFO  com.intuit.karate - [print] Token From Background eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1sZWFkZXIifQ.a_N9URDBPGOMcDdEVoaMHsJtk3jOnig0v0SCtSWcsGE
+20:06:57.244 [main] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+20:06:57.775 [main] DEBUG com.intuit.karate - request:
+1 > GET https://cybertek-reservation-api-qa2.herokuapp.com/sign?email=sbirdbj%40fc2.com&password=asenorval
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: cybertek-reservation-api-qa2.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/13.0.1)
+
+20:06:59.946 [main] DEBUG com.intuit.karate - response time in milliseconds: 2164.18
+1 < 200
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Sat, 30 Jan 2021 19:07:02 GMT
+1 < Server: Jetty(9.4.8.v20171121)
+1 < Via: 1.1 vegur
+{"accessToken":"eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1sZWFkZXIifQ.a_N9URDBPGOMcDdEVoaMHsJtk3jOnig0v0SCtSWcsGE","refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1sZWFkZXIifQ.a_N9URDBPGOMcDdEVoaMHsJtk3jOnig0v0SCtSWcsGE"}
+
+20:07:00.034 [main] INFO  com.intuit.karate - [print] eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1sZWFkZXIifQ.a_N9URDBPGOMcDdEVoaMHsJtk3jOnig0v0SCtSWcsGE
+20:07:00.057 [main] INFO  com.intuit.karate - [print] Token From Background eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1sZWFkZXIifQ.a_N9URDBPGOMcDdEVoaMHsJtk3jOnig0v0SCtSWcsGE
+20:07:00.077 [main] DEBUG com.intuit.karate - request:
+1 > GET https://cybertek-reservation-api-qa2.herokuapp.com/api/users/me
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1sZWFkZXIifQ.a_N9URDBPGOMcDdEVoaMHsJtk3jOnig0v0SCtSWcsGE
+1 > Connection: Keep-Alive
+1 > Host: cybertek-reservation-api-qa2.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/13.0.1)
+
+20:07:00.831 [main] DEBUG com.intuit.karate - response time in milliseconds: 736.64
+1 < 200
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Sat, 30 Jan 2021 19:07:04 GMT
+1 < Server: Jetty(9.4.8.v20171121)
+1 < Via: 1.1 vegur
+{"id":57,"firstName":"Ase","lastName":"Norval","role":"student-team-leader"}
+
+20:07:00.835 [main] INFO  com.intuit.karate - [print] {
+  "firstName": "Ase",
+  "lastName": "Norval",
+  "role": "student-team-leader",
+  "id": 57
+}
+
+20:11:17.984 [main] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+20:11:18.582 [main] DEBUG com.intuit.karate - request:
+1 > GET https://cybertek-reservation-api-qa2.herokuapp.com/sign?email=sbirdbj%40fc2.com&password=asenorval
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: cybertek-reservation-api-qa2.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/13.0.1)
+
+20:11:19.630 [main] DEBUG com.intuit.karate - response time in milliseconds: 1041.25
+1 < 200
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Sat, 30 Jan 2021 19:11:23 GMT
+1 < Server: Jetty(9.4.8.v20171121)
+1 < Via: 1.1 vegur
+{"accessToken":"eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1sZWFkZXIifQ.a_N9URDBPGOMcDdEVoaMHsJtk3jOnig0v0SCtSWcsGE","refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1sZWFkZXIifQ.a_N9URDBPGOMcDdEVoaMHsJtk3jOnig0v0SCtSWcsGE"}
+
+20:11:19.686 [main] INFO  com.intuit.karate - [print] eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1sZWFkZXIifQ.a_N9URDBPGOMcDdEVoaMHsJtk3jOnig0v0SCtSWcsGE
+20:11:19.704 [main] INFO  com.intuit.karate - [print] Token From Background eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1sZWFkZXIifQ.a_N9URDBPGOMcDdEVoaMHsJtk3jOnig0v0SCtSWcsGE
+20:11:19.717 [main] DEBUG com.intuit.karate - request:
+1 > GET https://cybertek-reservation-api-qa2.herokuapp.com/api/users/me
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1sZWFkZXIifQ.a_N9URDBPGOMcDdEVoaMHsJtk3jOnig0v0SCtSWcsGE
+1 > Connection: Keep-Alive
+1 > Host: cybertek-reservation-api-qa2.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/13.0.1)
+
+20:11:20.208 [main] DEBUG com.intuit.karate - response time in milliseconds: 484.70
+1 < 200
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Sat, 30 Jan 2021 19:11:24 GMT
+1 < Server: Jetty(9.4.8.v20171121)
+1 < Via: 1.1 vegur
+{"id":57,"firstName":"Ase","lastName":"Norval","role":"student-team-leader"}
+
+20:11:20.211 [main] INFO  com.intuit.karate - [print] {
+  "firstName": "Ase",
+  "lastName": "Norval",
+  "role": "student-team-leader",
+  "id": 57
+}
+
+20:13:37.733 [main] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+20:13:38.578 [main] DEBUG com.intuit.karate - request:
+1 > GET https://cybertek-reservation-api-qa2.herokuapp.com/sign?email=sbirdbj%40fc2.com&password=asenorval
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: cybertek-reservation-api-qa2.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/13.0.1)
+
+20:13:39.857 [main] DEBUG com.intuit.karate - response time in milliseconds: 1266.51
+1 < 200
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Sat, 30 Jan 2021 19:13:43 GMT
+1 < Server: Jetty(9.4.8.v20171121)
+1 < Via: 1.1 vegur
+{"accessToken":"eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1sZWFkZXIifQ.a_N9URDBPGOMcDdEVoaMHsJtk3jOnig0v0SCtSWcsGE","refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1sZWFkZXIifQ.a_N9URDBPGOMcDdEVoaMHsJtk3jOnig0v0SCtSWcsGE"}
+
+20:13:39.957 [main] INFO  com.intuit.karate - [print] eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1sZWFkZXIifQ.a_N9URDBPGOMcDdEVoaMHsJtk3jOnig0v0SCtSWcsGE
+20:13:39.984 [main] INFO  com.intuit.karate - [print] steven
+20:13:39.989 [main] INFO  com.intuit.karate - [print] Token From Background eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1sZWFkZXIifQ.a_N9URDBPGOMcDdEVoaMHsJtk3jOnig0v0SCtSWcsGE
+20:13:40.006 [main] DEBUG com.intuit.karate - request:
+1 > GET https://cybertek-reservation-api-qa2.herokuapp.com/api/users/me
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1sZWFkZXIifQ.a_N9URDBPGOMcDdEVoaMHsJtk3jOnig0v0SCtSWcsGE
+1 > Connection: Keep-Alive
+1 > Host: cybertek-reservation-api-qa2.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/13.0.1)
+
+20:13:40.497 [main] DEBUG com.intuit.karate - response time in milliseconds: 488.83
+1 < 200
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Sat, 30 Jan 2021 19:13:44 GMT
+1 < Server: Jetty(9.4.8.v20171121)
+1 < Via: 1.1 vegur
+{"id":57,"firstName":"Ase","lastName":"Norval","role":"student-team-leader"}
+
+20:13:40.500 [main] INFO  com.intuit.karate - [print] {
+  "firstName": "Ase",
+  "lastName": "Norval",
+  "role": "student-team-leader",
+  "id": 57
+}
+
+20:19:46.511 [main] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+20:19:47.339 [main] DEBUG com.intuit.karate - request:
+1 > GET https://cybertek-reservation-api-qa2.herokuapp.com/sign?email=sbirdbj%40fc2.com&password=asenorval
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: cybertek-reservation-api-qa2.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/13.0.1)
+
+20:19:48.541 [main] DEBUG com.intuit.karate - response time in milliseconds: 1195.52
+1 < 200
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Sat, 30 Jan 2021 19:19:52 GMT
+1 < Server: Jetty(9.4.8.v20171121)
+1 < Via: 1.1 vegur
+{"accessToken":"eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1sZWFkZXIifQ.a_N9URDBPGOMcDdEVoaMHsJtk3jOnig0v0SCtSWcsGE","refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1sZWFkZXIifQ.a_N9URDBPGOMcDdEVoaMHsJtk3jOnig0v0SCtSWcsGE"}
+
+20:19:48.599 [main] INFO  com.intuit.karate - [print] eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1sZWFkZXIifQ.a_N9URDBPGOMcDdEVoaMHsJtk3jOnig0v0SCtSWcsGE
+20:19:48.625 [main] INFO  com.intuit.karate - [print] steven
+20:19:48.631 [main] INFO  com.intuit.karate - [print] Token From Background eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1sZWFkZXIifQ.a_N9URDBPGOMcDdEVoaMHsJtk3jOnig0v0SCtSWcsGE
+20:19:48.645 [main] DEBUG com.intuit.karate - request:
+1 > GET https://cybertek-reservation-api-qa2.herokuapp.com/api/campuses
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1sZWFkZXIifQ.a_N9URDBPGOMcDdEVoaMHsJtk3jOnig0v0SCtSWcsGE
+1 > Connection: Keep-Alive
+1 > Host: cybertek-reservation-api-qa2.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/13.0.1)
+
+20:19:49.209 [main] DEBUG com.intuit.karate - response time in milliseconds: 557.28
+1 < 200
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Sat, 30 Jan 2021 19:19:53 GMT
+1 < Server: Jetty(9.4.8.v20171121)
+1 < Via: 1.1 vegur
+[{"id":1,"location":"VA","clusters":[{"id":3,"name":"light-side","rooms":[{"id":111,"name":"mit","description":"mens et manus","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":112,"name":"harvard","description":"veritas","capacity":6,"withTV":true,"withWhiteBoard":false},{"id":113,"name":"yale","description":"lux et veritas","capacity":6,"withTV":true,"withWhiteBoard":false},{"id":114,"name":"princeton","description":"dei sub numine viget","capacity":4,"withTV":true,"withWhiteBoard":false},{"id":115,"name":"stanford","description":"die luft der freiheit weht","capacity":6,"withTV":false,"withWhiteBoard":true},{"id":116,"name":"duke","description":"eruditio et religio","capacity":4,"withTV":true,"withWhiteBoard":false},{"id":117,"name":"berkeley","description":"fiat lux","capacity":4,"withTV":true,"withWhiteBoard":false}]},{"id":4,"name":"dark-side","rooms":[{"id":121,"name":"kilimanjaro","description":"it isn\u0027t the mountains ahead to climb that wear you out, it\u0027s the pebble in your shoe","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":122,"name":"half dome","description":"faith moves mountains","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":123,"name":"denali","description":"you can\u0027t move mountains by whispering at them","capacity":4,"withTV":true,"withWhiteBoard":true},{"id":124,"name":"meru","description":"every mountain top is within reach if you just keep climbing","capacity":4,"withTV":true,"withWhiteBoard":true}]}]}, {"id":2,"location":"IL","clusters":[{"id":5,"name":"il","rooms":[{"id":211,"name":"google","description":"don\u0027t be evil","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":212,"name":"apple","description":"think different","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":213,"name":"microsoft","description":"be what\u0027s next","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":214,"name":"bay_area","description":"make future","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":215,"name":"amazon","description":"work hard. have fun. make history","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":216,"name":"tesla","description":"just do it","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":217,"name":"facebook","description":"move fast and break things","capacity":6,"withTV":true,"withWhiteBoard":true}]}]}]
+
+20:19:49.217 [main] INFO  com.intuit.karate - [print] [
+  {
+    "location": "VA",
+    "id": 1,
+    "clusters": [
+      {
+        "rooms": [
+          {
+            "withTV": true,
+            "name": "mit",
+            "description": "mens et manus",
+            "id": 111,
+            "withWhiteBoard": true,
+            "capacity": 6
+          },
+          {
+            "withTV": true,
+            "name": "harvard",
+            "description": "veritas",
+            "id": 112,
+            "withWhiteBoard": false,
+            "capacity": 6
+          },
+          {
+            "withTV": true,
+            "name": "yale",
+            "description": "lux et veritas",
+            "id": 113,
+            "withWhiteBoard": false,
+            "capacity": 6
+          },
+          {
+            "withTV": true,
+            "name": "princeton",
+            "description": "dei sub numine viget",
+            "id": 114,
+            "withWhiteBoard": false,
+            "capacity": 4
+          },
+          {
+            "withTV": false,
+            "name": "stanford",
+            "description": "die luft der freiheit weht",
+            "id": 115,
+            "withWhiteBoard": true,
+            "capacity": 6
+          },
+          {
+            "withTV": true,
+            "name": "duke",
+            "description": "eruditio et religio",
+            "id": 116,
+            "withWhiteBoard": false,
+            "capacity": 4
+          },
+          {
+            "withTV": true,
+            "name": "berkeley",
+            "description": "fiat lux",
+            "id": 117,
+            "withWhiteBoard": false,
+            "capacity": 4
+          }
+        ],
+        "name": "light-side",
+        "id": 3
+      },
+      {
+        "rooms": [
+          {
+            "withTV": true,
+            "name": "kilimanjaro",
+            "description": "it isn't the mountains ahead to climb that wear you out, it's the pebble in your shoe",
+            "id": 121,
+            "withWhiteBoard": true,
+            "capacity": 6
+          },
+          {
+            "withTV": true,
+            "name": "half dome",
+            "description": "faith moves mountains",
+            "id": 122,
+            "withWhiteBoard": true,
+            "capacity": 6
+          },
+          {
+            "withTV": true,
+            "name": "denali",
+            "description": "you can't move mountains by whispering at them",
+            "id": 123,
+            "withWhiteBoard": true,
+            "capacity": 4
+          },
+          {
+            "withTV": true,
+            "name": "meru",
+            "description": "every mountain top is within reach if you just keep climbing",
+            "id": 124,
+            "withWhiteBoard": true,
+            "capacity": 4
+          }
+        ],
+        "name": "dark-side",
+        "id": 4
+      }
+    ]
+  },
+  {
+    "location": "IL",
+    "id": 2,
+    "clusters": [
+      {
+        "rooms": [
+          {
+            "withTV": true,
+            "name": "google",
+            "description": "don't be evil",
+            "id": 211,
+            "withWhiteBoard": true,
+            "capacity": 6
+          },
+          {
+            "withTV": true,
+            "name": "apple",
+            "description": "think different",
+            "id": 212,
+            "withWhiteBoard": true,
+            "capacity": 6
+          },
+          {
+            "withTV": true,
+            "name": "microsoft",
+            "description": "be what's next",
+            "id": 213,
+            "withWhiteBoard": true,
+            "capacity": 6
+          },
+          {
+            "withTV": true,
+            "name": "bay_area",
+            "description": "make future",
+            "id": 214,
+            "withWhiteBoard": true,
+            "capacity": 6
+          },
+          {
+            "withTV": true,
+            "name": "amazon",
+            "description": "work hard. have fun. make history",
+            "id": 215,
+            "withWhiteBoard": true,
+            "capacity": 6
+          },
+          {
+            "withTV": true,
+            "name": "tesla",
+            "description": "just do it",
+            "id": 216,
+            "withWhiteBoard": true,
+            "capacity": 6
+          },
+          {
+            "withTV": true,
+            "name": "facebook",
+            "description": "move fast and break things",
+            "id": 217,
+            "withWhiteBoard": true,
+            "capacity": 6
+          }
+        ],
+        "name": "il",
+        "id": 5
+      }
+    ]
+  }
+]
+
+20:27:52.413 [main] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+20:27:52.982 [main] DEBUG com.intuit.karate - request:
+1 > GET https://cybertek-reservation-api-qa2.herokuapp.com/sign?email=sbirdbj%40fc2.com&password=asenorval
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: cybertek-reservation-api-qa2.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/13.0.1)
+
+20:27:53.896 [main] DEBUG com.intuit.karate - response time in milliseconds: 907.56
+1 < 200
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Sat, 30 Jan 2021 19:27:58 GMT
+1 < Server: Jetty(9.4.8.v20171121)
+1 < Via: 1.1 vegur
+{"accessToken":"eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1sZWFkZXIifQ.a_N9URDBPGOMcDdEVoaMHsJtk3jOnig0v0SCtSWcsGE","refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1sZWFkZXIifQ.a_N9URDBPGOMcDdEVoaMHsJtk3jOnig0v0SCtSWcsGE"}
+
+20:27:53.966 [main] INFO  com.intuit.karate - [print] eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1sZWFkZXIifQ.a_N9URDBPGOMcDdEVoaMHsJtk3jOnig0v0SCtSWcsGE
+20:27:53.990 [main] INFO  com.intuit.karate - [print] steven
+20:27:53.995 [main] INFO  com.intuit.karate - [print] Token From Background eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1sZWFkZXIifQ.a_N9URDBPGOMcDdEVoaMHsJtk3jOnig0v0SCtSWcsGE
+20:27:54.008 [main] DEBUG com.intuit.karate - request:
+1 > GET https://cybertek-reservation-api-qa2.herokuapp.com/api/campuses
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1sZWFkZXIifQ.a_N9URDBPGOMcDdEVoaMHsJtk3jOnig0v0SCtSWcsGE
+1 > Connection: Keep-Alive
+1 > Host: cybertek-reservation-api-qa2.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/13.0.1)
+
+20:27:54.468 [main] DEBUG com.intuit.karate - response time in milliseconds: 446.76
+1 < 200
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Sat, 30 Jan 2021 19:27:58 GMT
+1 < Server: Jetty(9.4.8.v20171121)
+1 < Via: 1.1 vegur
+[{"id":1,"location":"VA","clusters":[{"id":3,"name":"light-side","rooms":[{"id":111,"name":"mit","description":"mens et manus","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":112,"name":"harvard","description":"veritas","capacity":6,"withTV":true,"withWhiteBoard":false},{"id":113,"name":"yale","description":"lux et veritas","capacity":6,"withTV":true,"withWhiteBoard":false},{"id":114,"name":"princeton","description":"dei sub numine viget","capacity":4,"withTV":true,"withWhiteBoard":false},{"id":115,"name":"stanford","description":"die luft der freiheit weht","capacity":6,"withTV":false,"withWhiteBoard":true},{"id":116,"name":"duke","description":"eruditio et religio","capacity":4,"withTV":true,"withWhiteBoard":false},{"id":117,"name":"berkeley","description":"fiat lux","capacity":4,"withTV":true,"withWhiteBoard":false}]},{"id":4,"name":"dark-side","rooms":[{"id":121,"name":"kilimanjaro","description":"it isn\u0027t the mountains ahead to climb that wear you out, it\u0027s the pebble in your shoe","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":122,"name":"half dome","description":"faith moves mountains","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":123,"name":"denali","description":"you can\u0027t move mountains by whispering at them","capacity":4,"withTV":true,"withWhiteBoard":true},{"id":124,"name":"meru","description":"every mountain top is within reach if you just keep climbing","capacity":4,"withTV":true,"withWhiteBoard":true}]}]}, {"id":2,"location":"IL","clusters":[{"id":5,"name":"il","rooms":[{"id":211,"name":"google","description":"don\u0027t be evil","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":212,"name":"apple","description":"think different","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":213,"name":"microsoft","description":"be what\u0027s next","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":214,"name":"bay_area","description":"make future","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":215,"name":"amazon","description":"work hard. have fun. make history","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":216,"name":"tesla","description":"just do it","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":217,"name":"facebook","description":"move fast and break things","capacity":6,"withTV":true,"withWhiteBoard":true}]}]}]
+
+20:27:54.475 [main] INFO  com.intuit.karate - [print] [
+  {
+    "location": "VA",
+    "id": 1,
+    "clusters": [
+      {
+        "rooms": [
+          {
+            "withTV": true,
+            "name": "mit",
+            "description": "mens et manus",
+            "id": 111,
+            "withWhiteBoard": true,
+            "capacity": 6
+          },
+          {
+            "withTV": true,
+            "name": "harvard",
+            "description": "veritas",
+            "id": 112,
+            "withWhiteBoard": false,
+            "capacity": 6
+          },
+          {
+            "withTV": true,
+            "name": "yale",
+            "description": "lux et veritas",
+            "id": 113,
+            "withWhiteBoard": false,
+            "capacity": 6
+          },
+          {
+            "withTV": true,
+            "name": "princeton",
+            "description": "dei sub numine viget",
+            "id": 114,
+            "withWhiteBoard": false,
+            "capacity": 4
+          },
+          {
+            "withTV": false,
+            "name": "stanford",
+            "description": "die luft der freiheit weht",
+            "id": 115,
+            "withWhiteBoard": true,
+            "capacity": 6
+          },
+          {
+            "withTV": true,
+            "name": "duke",
+            "description": "eruditio et religio",
+            "id": 116,
+            "withWhiteBoard": false,
+            "capacity": 4
+          },
+          {
+            "withTV": true,
+            "name": "berkeley",
+            "description": "fiat lux",
+            "id": 117,
+            "withWhiteBoard": false,
+            "capacity": 4
+          }
+        ],
+        "name": "light-side",
+        "id": 3
+      },
+      {
+        "rooms": [
+          {
+            "withTV": true,
+            "name": "kilimanjaro",
+            "description": "it isn't the mountains ahead to climb that wear you out, it's the pebble in your shoe",
+            "id": 121,
+            "withWhiteBoard": true,
+            "capacity": 6
+          },
+          {
+            "withTV": true,
+            "name": "half dome",
+            "description": "faith moves mountains",
+            "id": 122,
+            "withWhiteBoard": true,
+            "capacity": 6
+          },
+          {
+            "withTV": true,
+            "name": "denali",
+            "description": "you can't move mountains by whispering at them",
+            "id": 123,
+            "withWhiteBoard": true,
+            "capacity": 4
+          },
+          {
+            "withTV": true,
+            "name": "meru",
+            "description": "every mountain top is within reach if you just keep climbing",
+            "id": 124,
+            "withWhiteBoard": true,
+            "capacity": 4
+          }
+        ],
+        "name": "dark-side",
+        "id": 4
+      }
+    ]
+  },
+  {
+    "location": "IL",
+    "id": 2,
+    "clusters": [
+      {
+        "rooms": [
+          {
+            "withTV": true,
+            "name": "google",
+            "description": "don't be evil",
+            "id": 211,
+            "withWhiteBoard": true,
+            "capacity": 6
+          },
+          {
+            "withTV": true,
+            "name": "apple",
+            "description": "think different",
+            "id": 212,
+            "withWhiteBoard": true,
+            "capacity": 6
+          },
+          {
+            "withTV": true,
+            "name": "microsoft",
+            "description": "be what's next",
+            "id": 213,
+            "withWhiteBoard": true,
+            "capacity": 6
+          },
+          {
+            "withTV": true,
+            "name": "bay_area",
+            "description": "make future",
+            "id": 214,
+            "withWhiteBoard": true,
+            "capacity": 6
+          },
+          {
+            "withTV": true,
+            "name": "amazon",
+            "description": "work hard. have fun. make history",
+            "id": 215,
+            "withWhiteBoard": true,
+            "capacity": 6
+          },
+          {
+            "withTV": true,
+            "name": "tesla",
+            "description": "just do it",
+            "id": 216,
+            "withWhiteBoard": true,
+            "capacity": 6
+          },
+          {
+            "withTV": true,
+            "name": "facebook",
+            "description": "move fast and break things",
+            "id": 217,
+            "withWhiteBoard": true,
+            "capacity": 6
+          }
+        ],
+        "name": "il",
+        "id": 5
+      }
+    ]
+  }
+]
+
+20:28:23.844 [main] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+20:28:25.268 [main] DEBUG com.intuit.karate - request:
+1 > GET https://cybertek-reservation-api-qa2.herokuapp.com/sign?email=sbirdbj%40fc2.com&password=asenorval
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: cybertek-reservation-api-qa2.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/13.0.1)
+
+20:28:26.228 [main] DEBUG com.intuit.karate - response time in milliseconds: 954.29
+1 < 200
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Sat, 30 Jan 2021 19:28:30 GMT
+1 < Server: Jetty(9.4.8.v20171121)
+1 < Via: 1.1 vegur
+{"accessToken":"eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1sZWFkZXIifQ.a_N9URDBPGOMcDdEVoaMHsJtk3jOnig0v0SCtSWcsGE","refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1sZWFkZXIifQ.a_N9URDBPGOMcDdEVoaMHsJtk3jOnig0v0SCtSWcsGE"}
+
+20:28:26.306 [main] INFO  com.intuit.karate - [print] eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1sZWFkZXIifQ.a_N9URDBPGOMcDdEVoaMHsJtk3jOnig0v0SCtSWcsGE
+20:28:26.337 [main] INFO  com.intuit.karate - [print] steven
+20:28:26.342 [main] INFO  com.intuit.karate - [print] Token From Background eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1sZWFkZXIifQ.a_N9URDBPGOMcDdEVoaMHsJtk3jOnig0v0SCtSWcsGE
+20:28:26.358 [main] DEBUG com.intuit.karate - request:
+1 > GET https://cybertek-reservation-api-qa2.herokuapp.com/api/campuses
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1sZWFkZXIifQ.a_N9URDBPGOMcDdEVoaMHsJtk3jOnig0v0SCtSWcsGE
+1 > Connection: Keep-Alive
+1 > Host: cybertek-reservation-api-qa2.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/13.0.1)
+
+20:28:26.813 [main] DEBUG com.intuit.karate - response time in milliseconds: 451.85
+1 < 200
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Sat, 30 Jan 2021 19:28:31 GMT
+1 < Server: Jetty(9.4.8.v20171121)
+1 < Via: 1.1 vegur
+[{"id":1,"location":"VA","clusters":[{"id":3,"name":"light-side","rooms":[{"id":111,"name":"mit","description":"mens et manus","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":112,"name":"harvard","description":"veritas","capacity":6,"withTV":true,"withWhiteBoard":false},{"id":113,"name":"yale","description":"lux et veritas","capacity":6,"withTV":true,"withWhiteBoard":false},{"id":114,"name":"princeton","description":"dei sub numine viget","capacity":4,"withTV":true,"withWhiteBoard":false},{"id":115,"name":"stanford","description":"die luft der freiheit weht","capacity":6,"withTV":false,"withWhiteBoard":true},{"id":116,"name":"duke","description":"eruditio et religio","capacity":4,"withTV":true,"withWhiteBoard":false},{"id":117,"name":"berkeley","description":"fiat lux","capacity":4,"withTV":true,"withWhiteBoard":false}]},{"id":4,"name":"dark-side","rooms":[{"id":121,"name":"kilimanjaro","description":"it isn\u0027t the mountains ahead to climb that wear you out, it\u0027s the pebble in your shoe","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":122,"name":"half dome","description":"faith moves mountains","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":123,"name":"denali","description":"you can\u0027t move mountains by whispering at them","capacity":4,"withTV":true,"withWhiteBoard":true},{"id":124,"name":"meru","description":"every mountain top is within reach if you just keep climbing","capacity":4,"withTV":true,"withWhiteBoard":true}]}]}, {"id":2,"location":"IL","clusters":[{"id":5,"name":"il","rooms":[{"id":211,"name":"google","description":"don\u0027t be evil","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":212,"name":"apple","description":"think different","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":213,"name":"microsoft","description":"be what\u0027s next","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":214,"name":"bay_area","description":"make future","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":215,"name":"amazon","description":"work hard. have fun. make history","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":216,"name":"tesla","description":"just do it","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":217,"name":"facebook","description":"move fast and break things","capacity":6,"withTV":true,"withWhiteBoard":true}]}]}]
+
+20:28:26.820 [main] INFO  com.intuit.karate - [print] [
+  {
+    "location": "VA",
+    "id": 1,
+    "clusters": [
+      {
+        "rooms": [
+          {
+            "withTV": true,
+            "name": "mit",
+            "description": "mens et manus",
+            "id": 111,
+            "withWhiteBoard": true,
+            "capacity": 6
+          },
+          {
+            "withTV": true,
+            "name": "harvard",
+            "description": "veritas",
+            "id": 112,
+            "withWhiteBoard": false,
+            "capacity": 6
+          },
+          {
+            "withTV": true,
+            "name": "yale",
+            "description": "lux et veritas",
+            "id": 113,
+            "withWhiteBoard": false,
+            "capacity": 6
+          },
+          {
+            "withTV": true,
+            "name": "princeton",
+            "description": "dei sub numine viget",
+            "id": 114,
+            "withWhiteBoard": false,
+            "capacity": 4
+          },
+          {
+            "withTV": false,
+            "name": "stanford",
+            "description": "die luft der freiheit weht",
+            "id": 115,
+            "withWhiteBoard": true,
+            "capacity": 6
+          },
+          {
+            "withTV": true,
+            "name": "duke",
+            "description": "eruditio et religio",
+            "id": 116,
+            "withWhiteBoard": false,
+            "capacity": 4
+          },
+          {
+            "withTV": true,
+            "name": "berkeley",
+            "description": "fiat lux",
+            "id": 117,
+            "withWhiteBoard": false,
+            "capacity": 4
+          }
+        ],
+        "name": "light-side",
+        "id": 3
+      },
+      {
+        "rooms": [
+          {
+            "withTV": true,
+            "name": "kilimanjaro",
+            "description": "it isn't the mountains ahead to climb that wear you out, it's the pebble in your shoe",
+            "id": 121,
+            "withWhiteBoard": true,
+            "capacity": 6
+          },
+          {
+            "withTV": true,
+            "name": "half dome",
+            "description": "faith moves mountains",
+            "id": 122,
+            "withWhiteBoard": true,
+            "capacity": 6
+          },
+          {
+            "withTV": true,
+            "name": "denali",
+            "description": "you can't move mountains by whispering at them",
+            "id": 123,
+            "withWhiteBoard": true,
+            "capacity": 4
+          },
+          {
+            "withTV": true,
+            "name": "meru",
+            "description": "every mountain top is within reach if you just keep climbing",
+            "id": 124,
+            "withWhiteBoard": true,
+            "capacity": 4
+          }
+        ],
+        "name": "dark-side",
+        "id": 4
+      }
+    ]
+  },
+  {
+    "location": "IL",
+    "id": 2,
+    "clusters": [
+      {
+        "rooms": [
+          {
+            "withTV": true,
+            "name": "google",
+            "description": "don't be evil",
+            "id": 211,
+            "withWhiteBoard": true,
+            "capacity": 6
+          },
+          {
+            "withTV": true,
+            "name": "apple",
+            "description": "think different",
+            "id": 212,
+            "withWhiteBoard": true,
+            "capacity": 6
+          },
+          {
+            "withTV": true,
+            "name": "microsoft",
+            "description": "be what's next",
+            "id": 213,
+            "withWhiteBoard": true,
+            "capacity": 6
+          },
+          {
+            "withTV": true,
+            "name": "bay_area",
+            "description": "make future",
+            "id": 214,
+            "withWhiteBoard": true,
+            "capacity": 6
+          },
+          {
+            "withTV": true,
+            "name": "amazon",
+            "description": "work hard. have fun. make history",
+            "id": 215,
+            "withWhiteBoard": true,
+            "capacity": 6
+          },
+          {
+            "withTV": true,
+            "name": "tesla",
+            "description": "just do it",
+            "id": 216,
+            "withWhiteBoard": true,
+            "capacity": 6
+          },
+          {
+            "withTV": true,
+            "name": "facebook",
+            "description": "move fast and break things",
+            "id": 217,
+            "withWhiteBoard": true,
+            "capacity": 6
+          }
+        ],
+        "name": "il",
+        "id": 5
+      }
+    ]
+  }
+]
+
+20:28:26.863 [main] ERROR com.intuit.karate - assertion failed: path: $[1], actual: {"location":"IL","id":2,"clusters":[{"rooms":[{"withTV":true,"name":"google","description":"don't be evil","id":211,"withWhiteBoard":true,"capacity":6},{"withTV":true,"name":"apple","description":"think different","id":212,"withWhiteBoard":true,"capacity":6},{"withTV":true,"name":"microsoft","description":"be what's next","id":213,"withWhiteBoard":true,"capacity":6},{"withTV":true,"name":"bay_area","description":"make future","id":214,"withWhiteBoard":true,"capacity":6},{"withTV":true,"name":"amazon","description":"work hard. have fun. make history","id":215,"withWhiteBoard":true,"capacity":6},{"withTV":true,"name":"tesla","description":"just do it","id":216,"withWhiteBoard":true,"capacity":6},{"withTV":true,"name":"facebook","description":"move fast and break things","id":217,"withWhiteBoard":true,"capacity":6}],"name":"il","id":5}]}, expected: {id=2, location=IL, clusters=[{"id":5,"name":"il","rooms":[{"id":211,"name":"google","description":"don't be evil","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":212,"name":"apples","description":"think different","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":213,"name":"microsoft","description":"be what's next","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":214,"name":"bay_area","description":"make future","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":215,"name":"amazon","description":"work hard. have fun. make history","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":216,"name":"tesla","description":"just do it","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":217,"name":"facebook","description":"move fast and break things","capacity":6,"withTV":true,"withWhiteBoard":true}]}]}, reason: [path: $[1].clusters[0], actual: {"rooms":[{"withTV":true,"name":"google","description":"don't be evil","id":211,"withWhiteBoard":true,"capacity":6},{"withTV":true,"name":"apple","description":"think different","id":212,"withWhiteBoard":true,"capacity":6},{"withTV":true,"name":"microsoft","description":"be what's next","id":213,"withWhiteBoard":true,"capacity":6},{"withTV":true,"name":"bay_area","description":"make future","id":214,"withWhiteBoard":true,"capacity":6},{"withTV":true,"name":"amazon","description":"work hard. have fun. make history","id":215,"withWhiteBoard":true,"capacity":6},{"withTV":true,"name":"tesla","description":"just do it","id":216,"withWhiteBoard":true,"capacity":6},{"withTV":true,"name":"facebook","description":"move fast and break things","id":217,"withWhiteBoard":true,"capacity":6}],"name":"il","id":5}, expected: {id=5, name=il, rooms=[{"id":211,"name":"google","description":"don't be evil","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":212,"name":"apples","description":"think different","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":213,"name":"microsoft","description":"be what's next","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":214,"name":"bay_area","description":"make future","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":215,"name":"amazon","description":"work hard. have fun. make history","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":216,"name":"tesla","description":"just do it","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":217,"name":"facebook","description":"move fast and break things","capacity":6,"withTV":true,"withWhiteBoard":true}]}, reason: [path: $[1].clusters[0].rooms[1], actual: {"withTV":true,"name":"apple","description":"think different","id":212,"withWhiteBoard":true,"capacity":6}, expected: {id=212, name=apples, description=think different, capacity=6, withTV=true, withWhiteBoard=true}, reason: [path: $[1].clusters[0].rooms[1].name, actual: 'apple', expected: 'apples', reason: not equal]]]
+20:30:11.449 [main] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+20:30:12.204 [main] DEBUG com.intuit.karate - request:
+1 > GET https://cybertek-reservation-api-qa2.herokuapp.com/sign?email=sbirdbj%40fc2.com&password=asenorval
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: cybertek-reservation-api-qa2.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/13.0.1)
+
+20:30:13.156 [main] DEBUG com.intuit.karate - response time in milliseconds: 944.50
+1 < 200
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Sat, 30 Jan 2021 19:30:17 GMT
+1 < Server: Jetty(9.4.8.v20171121)
+1 < Via: 1.1 vegur
+{"accessToken":"eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1sZWFkZXIifQ.a_N9URDBPGOMcDdEVoaMHsJtk3jOnig0v0SCtSWcsGE","refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1sZWFkZXIifQ.a_N9URDBPGOMcDdEVoaMHsJtk3jOnig0v0SCtSWcsGE"}
+
+20:30:13.232 [main] INFO  com.intuit.karate - [print] eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1sZWFkZXIifQ.a_N9URDBPGOMcDdEVoaMHsJtk3jOnig0v0SCtSWcsGE
+20:30:13.260 [main] INFO  com.intuit.karate - [print] steven
+20:30:13.267 [main] INFO  com.intuit.karate - [print] Token From Background eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1sZWFkZXIifQ.a_N9URDBPGOMcDdEVoaMHsJtk3jOnig0v0SCtSWcsGE
+20:30:13.281 [main] DEBUG com.intuit.karate - request:
+1 > GET https://cybertek-reservation-api-qa2.herokuapp.com/api/campuses
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1sZWFkZXIifQ.a_N9URDBPGOMcDdEVoaMHsJtk3jOnig0v0SCtSWcsGE
+1 > Connection: Keep-Alive
+1 > Host: cybertek-reservation-api-qa2.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/13.0.1)
+
+20:30:14.053 [main] DEBUG com.intuit.karate - response time in milliseconds: 768.37
+1 < 200
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Sat, 30 Jan 2021 19:30:18 GMT
+1 < Server: Jetty(9.4.8.v20171121)
+1 < Via: 1.1 vegur
+[{"id":1,"location":"VA","clusters":[{"id":3,"name":"light-side","rooms":[{"id":111,"name":"mit","description":"mens et manus","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":112,"name":"harvard","description":"veritas","capacity":6,"withTV":true,"withWhiteBoard":false},{"id":113,"name":"yale","description":"lux et veritas","capacity":6,"withTV":true,"withWhiteBoard":false},{"id":114,"name":"princeton","description":"dei sub numine viget","capacity":4,"withTV":true,"withWhiteBoard":false},{"id":115,"name":"stanford","description":"die luft der freiheit weht","capacity":6,"withTV":false,"withWhiteBoard":true},{"id":116,"name":"duke","description":"eruditio et religio","capacity":4,"withTV":true,"withWhiteBoard":false},{"id":117,"name":"berkeley","description":"fiat lux","capacity":4,"withTV":true,"withWhiteBoard":false}]},{"id":4,"name":"dark-side","rooms":[{"id":121,"name":"kilimanjaro","description":"it isn\u0027t the mountains ahead to climb that wear you out, it\u0027s the pebble in your shoe","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":122,"name":"half dome","description":"faith moves mountains","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":123,"name":"denali","description":"you can\u0027t move mountains by whispering at them","capacity":4,"withTV":true,"withWhiteBoard":true},{"id":124,"name":"meru","description":"every mountain top is within reach if you just keep climbing","capacity":4,"withTV":true,"withWhiteBoard":true}]}]}, {"id":2,"location":"IL","clusters":[{"id":5,"name":"il","rooms":[{"id":211,"name":"google","description":"don\u0027t be evil","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":212,"name":"apple","description":"think different","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":213,"name":"microsoft","description":"be what\u0027s next","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":214,"name":"bay_area","description":"make future","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":215,"name":"amazon","description":"work hard. have fun. make history","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":216,"name":"tesla","description":"just do it","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":217,"name":"facebook","description":"move fast and break things","capacity":6,"withTV":true,"withWhiteBoard":true}]}]}]
+
+20:30:14.056 [main] INFO  com.intuit.karate - [print] [
+  {
+    "location": "VA",
+    "id": 1,
+    "clusters": [
+      {
+        "rooms": [
+          {
+            "withTV": true,
+            "name": "mit",
+            "description": "mens et manus",
+            "id": 111,
+            "withWhiteBoard": true,
+            "capacity": 6
+          },
+          {
+            "withTV": true,
+            "name": "harvard",
+            "description": "veritas",
+            "id": 112,
+            "withWhiteBoard": false,
+            "capacity": 6
+          },
+          {
+            "withTV": true,
+            "name": "yale",
+            "description": "lux et veritas",
+            "id": 113,
+            "withWhiteBoard": false,
+            "capacity": 6
+          },
+          {
+            "withTV": true,
+            "name": "princeton",
+            "description": "dei sub numine viget",
+            "id": 114,
+            "withWhiteBoard": false,
+            "capacity": 4
+          },
+          {
+            "withTV": false,
+            "name": "stanford",
+            "description": "die luft der freiheit weht",
+            "id": 115,
+            "withWhiteBoard": true,
+            "capacity": 6
+          },
+          {
+            "withTV": true,
+            "name": "duke",
+            "description": "eruditio et religio",
+            "id": 116,
+            "withWhiteBoard": false,
+            "capacity": 4
+          },
+          {
+            "withTV": true,
+            "name": "berkeley",
+            "description": "fiat lux",
+            "id": 117,
+            "withWhiteBoard": false,
+            "capacity": 4
+          }
+        ],
+        "name": "light-side",
+        "id": 3
+      },
+      {
+        "rooms": [
+          {
+            "withTV": true,
+            "name": "kilimanjaro",
+            "description": "it isn't the mountains ahead to climb that wear you out, it's the pebble in your shoe",
+            "id": 121,
+            "withWhiteBoard": true,
+            "capacity": 6
+          },
+          {
+            "withTV": true,
+            "name": "half dome",
+            "description": "faith moves mountains",
+            "id": 122,
+            "withWhiteBoard": true,
+            "capacity": 6
+          },
+          {
+            "withTV": true,
+            "name": "denali",
+            "description": "you can't move mountains by whispering at them",
+            "id": 123,
+            "withWhiteBoard": true,
+            "capacity": 4
+          },
+          {
+            "withTV": true,
+            "name": "meru",
+            "description": "every mountain top is within reach if you just keep climbing",
+            "id": 124,
+            "withWhiteBoard": true,
+            "capacity": 4
+          }
+        ],
+        "name": "dark-side",
+        "id": 4
+      }
+    ]
+  },
+  {
+    "location": "IL",
+    "id": 2,
+    "clusters": [
+      {
+        "rooms": [
+          {
+            "withTV": true,
+            "name": "google",
+            "description": "don't be evil",
+            "id": 211,
+            "withWhiteBoard": true,
+            "capacity": 6
+          },
+          {
+            "withTV": true,
+            "name": "apple",
+            "description": "think different",
+            "id": 212,
+            "withWhiteBoard": true,
+            "capacity": 6
+          },
+          {
+            "withTV": true,
+            "name": "microsoft",
+            "description": "be what's next",
+            "id": 213,
+            "withWhiteBoard": true,
+            "capacity": 6
+          },
+          {
+            "withTV": true,
+            "name": "bay_area",
+            "description": "make future",
+            "id": 214,
+            "withWhiteBoard": true,
+            "capacity": 6
+          },
+          {
+            "withTV": true,
+            "name": "amazon",
+            "description": "work hard. have fun. make history",
+            "id": 215,
+            "withWhiteBoard": true,
+            "capacity": 6
+          },
+          {
+            "withTV": true,
+            "name": "tesla",
+            "description": "just do it",
+            "id": 216,
+            "withWhiteBoard": true,
+            "capacity": 6
+          },
+          {
+            "withTV": true,
+            "name": "facebook",
+            "description": "move fast and break things",
+            "id": 217,
+            "withWhiteBoard": true,
+            "capacity": 6
+          }
+        ],
+        "name": "il",
+        "id": 5
+      }
+    ]
+  }
+]
+
