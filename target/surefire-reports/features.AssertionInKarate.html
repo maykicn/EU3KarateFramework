@@ -35,9 +35,9 @@
           
                     <div class="nav-count">
                                     
-                        <div class="bg-success" id="nav-pass">1</div>
+                        <div class="bg-success" id="nav-pass">3</div>
                                     
-                        <div class="bg-danger" id="nav-fail">0</div>
+                        <div class="bg-danger" id="nav-fail">1</div>
                                   
                     </div>
                             
@@ -46,12 +46,21 @@
                 <div id="nav-type">Scenarios</div>
                          
         
-                <div id="nav-date">2021-01-16 12:26:53 AM</div>
+                <div id="nav-date">2021-01-31 02:32:52 PM</div>
                         
       
                 <div class="nav-container">
                     <div class="nav-item passed">
-                        <a href="#[4:43]">[4:43] contains matching </a>
+                        <a href="#[1:5]">[1:5] some matching example </a>
+                    </div>
+                    <div class="nav-item passed">
+                        <a href="#[2:11]">[2:11] more matching example </a>
+                    </div>
+                    <div class="nav-item failed">
+                        <a href="#[3:26]">[3:26] fuzzy matching </a>
+                    </div>
+                    <div class="nav-item passed">
+                        <a href="#[4:42]">[4:42] contains matching </a>
                     </div>
                 </div>
             </div>
@@ -62,23 +71,147 @@
                     <a href="karate-summary.html">Summary</a><span class="feature-label">|</span><a href="karate-tags.html">Tags</a><span class="feature-label">|</span><span class="feature-label">Feature:</span><span class="feature-name">features/AssertionInKarate.feature</span><span class="feature-description">using match keyword</span>
                 </div>
                 <div class="scenario">
-                    <div class="scenario-heading" id="[4:43]">
+                    <div class="scenario-heading" id="[1:5]">
                         <div class="heading-container">
-                            <div class="scenario-tags">
-                                <a class="badge badge-primary" href="karate-tags.html">wip</a>
-                            </div>
-                            <span class="scenario-keyword">Scenario: [4:43]</span><span class="scenario-name">contains matching </span>
+                            <div class="scenario-tags"></div>
+                            <span class="scenario-keyword">Scenario: [1:5]</span><span class="scenario-name">some matching example </span>
                         </div>
-                        <div class="scenario-time passed">ms: 175</div>
+                        <div class="scenario-time passed">ms: 28</div>
                     </div>
                     <div class="step-row">
                         <div class="step-container" id="1">
                             <div class="step-ref passed">1</div>
+                            <div class="step-cell passed">* def name = 'Serverus Snape'</div>
+                        </div>
+                        <div class="time-cell passed">13</div>
+                    </div>
+                    <div class="preformatted" data-parent="1">14:32:14.575 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</div>
+                    <div class="step-row">
+                        <div class="step-container" id="2">
+                            <div class="step-ref passed">2</div>
+                            <div class="step-cell passed">* match name == 'Serverus Snape'</div>
+                        </div>
+                        <div class="time-cell passed">8</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="3">
+                            <div class="step-ref passed">3</div>
+                            <div class="step-cell passed">* match name != 'Tom Riddle'</div>
+                        </div>
+                        <div class="time-cell passed">7</div>
+                    </div>
+                </div>
+                <div class="scenario">
+                    <div class="scenario-heading" id="[2:11]">
+                        <div class="heading-container">
+                            <div class="scenario-tags"></div>
+                            <span class="scenario-keyword">Scenario: [2:11]</span><span class="scenario-name">more matching example </span>
+                        </div>
+                        <div class="scenario-time passed">ms: 255</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="4">
+                            <div class="step-ref passed">4</div>
+                            <div class="step-cell passed">* def employee =</div>
+                        </div>
+                        <div class="time-cell passed">152</div>
+                    </div>
+                    <div class="preformatted" data-parent="4">{
+"first_name":"TJ",
+"salary":24001,
+"active":true
+}
+14:32:14.575 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</div>
+                    <div class="step-row">
+                        <div class="step-container" id="5">
+                            <div class="step-ref passed">5</div>
+                            <div class="step-cell passed">* def emp_name = employee.first_name</div>
+                        </div>
+                        <div class="time-cell passed">57</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="6">
+                            <div class="step-ref passed">6</div>
+                            <div class="step-cell passed">* match emp_name == "TJ"</div>
+                        </div>
+                        <div class="time-cell passed">7</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="7">
+                            <div class="step-ref passed">7</div>
+                            <div class="step-cell passed">* match employee.salary == 24001</div>
+                        </div>
+                        <div class="time-cell passed">39</div>
+                    </div>
+                </div>
+                <div class="scenario">
+                    <div class="scenario-heading" id="[3:26]">
+                        <div class="heading-container">
+                            <div class="scenario-tags"></div>
+                            <span class="scenario-keyword">Scenario: [3:26]</span><span class="scenario-name">fuzzy matching </span>
+                        </div>
+                        <div class="scenario-time failed">ms: 215</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="8">
+                            <div class="step-ref passed">8</div>
+                            <div class="step-cell passed">* def employee =</div>
+                        </div>
+                        <div class="time-cell passed">142</div>
+                    </div>
+                    <div class="preformatted" data-parent="8">{
+   "first_name":"TJ",
+    "salary":24001,
+    "active":true
+  }
+14:32:14.641 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</div>
+                    <div class="step-row">
+                        <div class="step-container" id="9">
+                            <div class="step-ref passed">9</div>
+                            <div class="step-cell passed">* match employee.first_name == '#string'</div>
+                        </div>
+                        <div class="time-cell passed">21</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="10">
+                            <div class="step-ref passed">10</div>
+                            <div class="step-cell passed">* match employee.salary == '#number'</div>
+                        </div>
+                        <div class="time-cell passed">39</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="11">
+                            <div class="step-ref failed">11</div>
+                            <div class="step-cell failed">* match employee.ective == '#boolean'</div>
+                        </div>
+                        <div class="time-cell failed">13</div>
+                    </div>
+                    <div class="preformatted" data-parent="11">14:32:14.858 assertion failed: path: $.ective, actual: null, expected: '#boolean', reason: actual json-path does not exist
+AssertionInKarate.feature:38 - path: $.ective, actual: null, expected: '#boolean', reason: actual json-path does not exist</div>
+                    <div class="step-row">
+                        <div class="step-container" id="12">
+                            <div class="step-ref skipped">12</div>
+                            <div class="step-cell skipped">* match employee.last_name == '#notpresent'</div>
+                        </div>
+                        <div class="time-cell skipped">0</div>
+                    </div>
+                </div>
+                <div class="scenario">
+                    <div class="scenario-heading" id="[4:42]">
+                        <div class="heading-container">
+                            <div class="scenario-tags"></div>
+                            <span class="scenario-keyword">Scenario: [4:42]</span><span class="scenario-name">contains matching </span>
+                        </div>
+                        <div class="scenario-time passed">ms: 41</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="13">
+                            <div class="step-ref passed">13</div>
                             <div class="step-cell passed">* def employees =</div>
                         </div>
-                        <div class="time-cell passed">125</div>
+                        <div class="time-cell passed">0</div>
                     </div>
-                    <div class="preformatted" data-parent="1">[
+                    <div class="preformatted" data-parent="13">[
 {
 "first_name":"TJ",
 "salary":24001,
@@ -90,32 +223,32 @@
 "active":false
 }
  ]
-00:26:53.200 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</div>
+14:32:14.898 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</div>
                     <div class="step-row">
-                        <div class="step-container" id="2">
-                            <div class="step-ref passed">2</div>
+                        <div class="step-container" id="14">
+                            <div class="step-ref passed">14</div>
                             <div class="step-cell passed">* def length = employees.length</div>
                         </div>
-                        <div class="time-cell passed">39</div>
+                        <div class="time-cell passed">32</div>
                     </div>
                     <div class="step-row">
-                        <div class="step-container" id="3">
-                            <div class="step-ref passed">3</div>
+                        <div class="step-container" id="15">
+                            <div class="step-ref passed">15</div>
                             <div class="step-cell passed">* print length</div>
                         </div>
                         <div class="time-cell passed">1</div>
                     </div>
-                    <div class="preformatted" data-parent="3">00:26:53.398 [print] 2</div>
+                    <div class="preformatted" data-parent="15">14:32:14.932 [print] 2</div>
                     <div class="step-row">
-                        <div class="step-container" id="4">
-                            <div class="step-ref passed">4</div>
+                        <div class="step-container" id="16">
+                            <div class="step-ref passed">16</div>
                             <div class="step-cell passed">* match length == 2</div>
                         </div>
-                        <div class="time-cell passed">9</div>
+                        <div class="time-cell passed">7</div>
                     </div>
                     <div class="step-row">
-                        <div class="step-container" id="5">
-                            <div class="step-ref passed">5</div>
+                        <div class="step-container" id="17">
+                            <div class="step-ref passed">17</div>
                             <div class="step-cell passed">* match employees contains  {"first_name":"TJ","salary":24001,"active":true}</div>
                         </div>
                         <div class="time-cell passed">1</div>

@@ -37,7 +37,7 @@
                                     
                         <div class="bg-success" id="nav-pass">1</div>
                                     
-                        <div class="bg-danger" id="nav-fail">0</div>
+                        <div class="bg-danger" id="nav-fail">1</div>
                                   
                     </div>
                             
@@ -46,11 +46,14 @@
                 <div id="nav-type">Scenarios</div>
                          
         
-                <div id="nav-date">2021-01-30 08:30:14 PM</div>
+                <div id="nav-date">2021-01-31 02:32:52 PM</div>
                         
       
                 <div class="nav-container">
                     <div class="nav-item passed">
+                        <a href="#[1:12]">[1:12] get user information </a>
+                    </div>
+                    <div class="nav-item failed">
                         <a href="#[2:22]">[2:22] get campus information </a>
                     </div>
                 </div>
@@ -62,100 +65,98 @@
                     <a href="karate-summary.html">Summary</a><span class="feature-label">|</span><a href="karate-tags.html">Tags</a><span class="feature-label">|</span><span class="feature-label">Feature:</span><span class="feature-name">features/BookItTests.feature</span><span class="feature-description">Bookit Api tests</span>
                 </div>
                 <div class="scenario">
-                    <div class="scenario-heading" id="[2:22]">
+                    <div class="scenario-heading" id="[1:12]">
                         <div class="heading-container">
-                            <div class="scenario-tags">
-                                <a class="badge badge-primary" href="karate-tags.html">wip</a>
-                            </div>
-                            <span class="scenario-keyword">Scenario: [2:22]</span><span class="scenario-name">get campus information </span>
+                            <div class="scenario-tags"></div>
+                            <span class="scenario-keyword">Scenario: [1:12]</span><span class="scenario-name">get user information </span>
                         </div>
-                        <div class="scenario-time passed">ms: 2644</div>
+                        <div class="scenario-time passed">ms: 2982</div>
                     </div>
                     <div class="step-row">
-                        <div class="step-container" id="[2:22]bg">
+                        <div class="step-container" id="[1:12]bg">
                             <div class="step-ref bg-step">&gt;&gt;</div>
                             <div class="step-cell passed">Background:</div>
                         </div>
                         <div class="time-cell passed"></div>
                     </div>
-                    <div class="step-row" data-parent="[2:22]bg">
+                    <div class="step-row" data-parent="[1:12]bg">
                         <div class="step-container" id="1">
                             <div class="step-ref bg-step">1</div>
                             <div class="step-cell passed">* def baseUrl = 'https://cybertek-reservation-api-qa2.herokuapp.com/'</div>
                         </div>
-                        <div class="time-cell passed">10</div>
+                        <div class="time-cell passed">8</div>
                     </div>
-                    <div class="preformatted" data-parent="1">20:30:11.462 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</div>
-                    <div class="step-row" data-parent="[2:22]bg">
+                    <div class="preformatted" data-parent="1">14:32:14.574 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</div>
+                    <div class="step-row" data-parent="[1:12]bg">
                         <div class="step-container">
                             <div class="step-ref bg-step"></div>
                             <div class="step-cell comment">#point another feqature file</div>
                         </div>
                         <div class="time-cell comment"></div>
                     </div>
-                    <div class="step-row" data-parent="[2:22]bg">
+                    <div class="step-row" data-parent="[1:12]bg">
                         <div class="step-container" id="2">
                             <div class="step-ref bg-step">2</div>
                             <div class="step-cell passed">* def AuthFeature = call read('classpath:features/BookItAuth.feature')</div>
                         </div>
-                        <div class="time-cell passed">1712</div>
+                        <div class="time-cell passed">2479</div>
                     </div>
-                    <div class="step-row" data-parent="[2:22]bg">
+                    <div class="step-row" data-parent="[1:12]bg">
                         <div class="step-container" id="2.1">
                             <div class="step-ref bg-step">&gt;&gt;</div>
                             <div class="step-cell passed">features/BookItAuth.feature</div>
                         </div>
-                        <div class="time-cell passed">1675</div>
+                        <div class="time-cell passed">2402</div>
                     </div>
-                    <div class="step-row" data-parent="[2:22]bg">
+                    <div class="step-row" data-parent="[1:12]bg">
                         <div class="step-container" id="3">
                             <div class="step-ref bg-step">3</div>
                             <div class="step-indent"> </div>
                             <div class="step-cell passed">Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/'</div>
                         </div>
-                        <div class="time-cell passed">9</div>
+                        <div class="time-cell passed">17</div>
                     </div>
-                    <div class="step-row" data-parent="[2:22]bg">
+                    <div class="step-row" data-parent="[1:12]bg">
                         <div class="step-container" id="4">
                             <div class="step-ref bg-step">4</div>
                             <div class="step-indent"> </div>
                             <div class="step-cell passed">And path 'sign'</div>
                         </div>
-                        <div class="time-cell passed">8</div>
+                        <div class="time-cell passed">0</div>
                     </div>
-                    <div class="step-row" data-parent="[2:22]bg">
+                    <div class="step-row" data-parent="[1:12]bg">
                         <div class="step-container" id="5">
                             <div class="step-ref bg-step">5</div>
                             <div class="step-indent"> </div>
                             <div class="step-cell passed">And header Accept = 'application/json'</div>
                         </div>
-                        <div class="time-cell passed">10</div>
+                        <div class="time-cell passed">0</div>
                     </div>
-                    <div class="step-row" data-parent="[2:22]bg">
+                    <div class="step-row" data-parent="[1:12]bg">
                         <div class="step-container" id="6">
                             <div class="step-ref bg-step">6</div>
                             <div class="step-indent"> </div>
                             <div class="step-cell passed">And param email = 'sbirdbj@fc2.com'</div>
                         </div>
-                        <div class="time-cell passed">10</div>
+                        <div class="time-cell passed">0</div>
                     </div>
-                    <div class="step-row" data-parent="[2:22]bg">
+                    <div class="step-row" data-parent="[1:12]bg">
                         <div class="step-container" id="7">
                             <div class="step-ref bg-step">7</div>
                             <div class="step-indent"> </div>
                             <div class="step-cell passed">And param password = 'asenorval'</div>
                         </div>
-                        <div class="time-cell passed">7</div>
+                        <div class="time-cell passed">0</div>
                     </div>
-                    <div class="step-row" data-parent="[2:22]bg">
+                    <div class="step-row" data-parent="[1:12]bg">
                         <div class="step-container" id="8">
                             <div class="step-ref bg-step">8</div>
                             <div class="step-indent"> </div>
                             <div class="step-cell passed">When method GET</div>
                         </div>
-                        <div class="time-cell passed">1598</div>
+                        <div class="time-cell passed">2368</div>
                     </div>
-                    <div class="preformatted" data-parent="8">20:30:12.204 request:
+                    <div class="preformatted" data-parent="8">14:32:16.003 request:
 1 &gt; GET https://cybertek-reservation-api-qa2.herokuapp.com/sign?email=sbirdbj%40fc2.com&amp;password=asenorval
 1 &gt; Accept: application/json
 1 &gt; Accept-Encoding: gzip,deflate
@@ -163,15 +164,15 @@
 1 &gt; Host: cybertek-reservation-api-qa2.herokuapp.com
 1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/13.0.1)
 
-20:30:13.156 response time in milliseconds: 944.50
+14:32:17.068 response time in milliseconds: 1062.37
 1 &lt; 200
 1 &lt; Connection: close
 1 &lt; Content-Type: application/json
-1 &lt; Date: Sat, 30 Jan 2021 19:30:17 GMT
+1 &lt; Date: Sun, 31 Jan 2021 13:32:21 GMT
 1 &lt; Server: Jetty(9.4.8.v20171121)
 1 &lt; Via: 1.1 vegur
 {"accessToken":"eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1sZWFkZXIifQ.a_N9URDBPGOMcDdEVoaMHsJtk3jOnig0v0SCtSWcsGE","refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1sZWFkZXIifQ.a_N9URDBPGOMcDdEVoaMHsJtk3jOnig0v0SCtSWcsGE"}</div>
-                    <div class="step-row" data-parent="[2:22]bg">
+                    <div class="step-row" data-parent="[1:12]bg">
                         <div class="step-container" id="9">
                             <div class="step-ref bg-step">9</div>
                             <div class="step-indent"> </div>
@@ -179,16 +180,16 @@
                         </div>
                         <div class="time-cell passed">0</div>
                     </div>
-                    <div class="step-row" data-parent="[2:22]bg">
+                    <div class="step-row" data-parent="[1:12]bg">
                         <div class="step-container" id="10">
                             <div class="step-ref bg-step">10</div>
                             <div class="step-indent"> </div>
                             <div class="step-cell passed">And print response.accessToken</div>
                         </div>
-                        <div class="time-cell passed">30</div>
+                        <div class="time-cell passed">8</div>
                     </div>
-                    <div class="preformatted" data-parent="10">20:30:13.232 [print] eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1sZWFkZXIifQ.a_N9URDBPGOMcDdEVoaMHsJtk3jOnig0v0SCtSWcsGE</div>
-                    <div class="step-row" data-parent="[2:22]bg">
+                    <div class="preformatted" data-parent="10">14:32:17.077 [print] eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1sZWFkZXIifQ.a_N9URDBPGOMcDdEVoaMHsJtk3jOnig0v0SCtSWcsGE</div>
+                    <div class="step-row" data-parent="[1:12]bg">
                         <div class="step-container" id="11">
                             <div class="step-ref bg-step">11</div>
                             <div class="step-indent"> </div>
@@ -196,44 +197,44 @@
                         </div>
                         <div class="time-cell passed">0</div>
                     </div>
-                    <div class="step-row" data-parent="[2:22]bg">
+                    <div class="step-row" data-parent="[1:12]bg">
                         <div class="step-container" id="12">
                             <div class="step-ref bg-step">12</div>
                             <div class="step-indent"> </div>
                             <div class="step-cell passed">And def name = 'steven'</div>
                         </div>
-                        <div class="time-cell passed">5</div>
+                        <div class="time-cell passed">7</div>
                     </div>
-                    <div class="step-row" data-parent="[2:22]bg">
+                    <div class="step-row" data-parent="[1:12]bg">
                         <div class="step-container" id="13">
                             <div class="step-ref bg-step">13</div>
                             <div class="step-cell passed">* def accessToken = AuthFeature.token</div>
                         </div>
-                        <div class="time-cell passed">13</div>
+                        <div class="time-cell passed">10</div>
                     </div>
-                    <div class="step-row" data-parent="[2:22]bg">
+                    <div class="step-row" data-parent="[1:12]bg">
                         <div class="step-container" id="14">
                             <div class="step-ref bg-step">14</div>
                             <div class="step-cell passed">* def firstname =  AuthFeature.name</div>
                         </div>
-                        <div class="time-cell passed">7</div>
+                        <div class="time-cell passed">8</div>
                     </div>
-                    <div class="step-row" data-parent="[2:22]bg">
+                    <div class="step-row" data-parent="[1:12]bg">
                         <div class="step-container" id="15">
                             <div class="step-ref bg-step">15</div>
                             <div class="step-cell passed">* print firstname</div>
                         </div>
-                        <div class="time-cell passed">1</div>
+                        <div class="time-cell passed">0</div>
                     </div>
-                    <div class="preformatted" data-parent="15">20:30:13.261 [print] steven</div>
-                    <div class="step-row" data-parent="[2:22]bg">
+                    <div class="preformatted" data-parent="15">14:32:17.107 [print] steven</div>
+                    <div class="step-row" data-parent="[1:12]bg">
                         <div class="step-container" id="16">
                             <div class="step-ref bg-step">16</div>
                             <div class="step-cell passed">* print 'Token From Background',accessToken</div>
                         </div>
-                        <div class="time-cell passed">6</div>
+                        <div class="time-cell passed">8</div>
                     </div>
-                    <div class="preformatted" data-parent="16">20:30:13.267 [print] Token From Background eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1sZWFkZXIifQ.a_N9URDBPGOMcDdEVoaMHsJtk3jOnig0v0SCtSWcsGE</div>
+                    <div class="preformatted" data-parent="16">14:32:17.116 [print] Token From Background eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1sZWFkZXIifQ.a_N9URDBPGOMcDdEVoaMHsJtk3jOnig0v0SCtSWcsGE</div>
                     <div class="step-row">
                         <div class="step-container" id="17">
                             <div class="step-ref passed">17</div>
@@ -244,7 +245,7 @@
                     <div class="step-row">
                         <div class="step-container" id="18">
                             <div class="step-ref passed">18</div>
-                            <div class="step-cell passed">And path 'api/campuses'</div>
+                            <div class="step-cell passed">And path 'api/users/me'</div>
                         </div>
                         <div class="time-cell passed">4</div>
                     </div>
@@ -253,7 +254,7 @@
                             <div class="step-ref passed">19</div>
                             <div class="step-cell passed">And header Authorization = 'Bearer '+accessToken</div>
                         </div>
-                        <div class="time-cell passed">8</div>
+                        <div class="time-cell passed">12</div>
                     </div>
                     <div class="step-row">
                         <div class="step-container" id="20">
@@ -267,10 +268,10 @@
                             <div class="step-ref passed">21</div>
                             <div class="step-cell passed">When method GET</div>
                         </div>
-                        <div class="time-cell passed">774</div>
+                        <div class="time-cell passed">451</div>
                     </div>
-                    <div class="preformatted" data-parent="21">20:30:13.281 request:
-1 &gt; GET https://cybertek-reservation-api-qa2.herokuapp.com/api/campuses
+                    <div class="preformatted" data-parent="21">14:32:17.136 request:
+1 &gt; GET https://cybertek-reservation-api-qa2.herokuapp.com/api/users/me
 1 &gt; Accept: application/json
 1 &gt; Accept-Encoding: gzip,deflate
 1 &gt; Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1sZWFkZXIifQ.a_N9URDBPGOMcDdEVoaMHsJtk3jOnig0v0SCtSWcsGE
@@ -278,14 +279,14 @@
 1 &gt; Host: cybertek-reservation-api-qa2.herokuapp.com
 1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/13.0.1)
 
-20:30:14.053 response time in milliseconds: 768.37
+14:32:17.585 response time in milliseconds: 447.76
 1 &lt; 200
 1 &lt; Connection: close
 1 &lt; Content-Type: application/json
-1 &lt; Date: Sat, 30 Jan 2021 19:30:18 GMT
+1 &lt; Date: Sun, 31 Jan 2021 13:32:22 GMT
 1 &lt; Server: Jetty(9.4.8.v20171121)
 1 &lt; Via: 1.1 vegur
-[{"id":1,"location":"VA","clusters":[{"id":3,"name":"light-side","rooms":[{"id":111,"name":"mit","description":"mens et manus","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":112,"name":"harvard","description":"veritas","capacity":6,"withTV":true,"withWhiteBoard":false},{"id":113,"name":"yale","description":"lux et veritas","capacity":6,"withTV":true,"withWhiteBoard":false},{"id":114,"name":"princeton","description":"dei sub numine viget","capacity":4,"withTV":true,"withWhiteBoard":false},{"id":115,"name":"stanford","description":"die luft der freiheit weht","capacity":6,"withTV":false,"withWhiteBoard":true},{"id":116,"name":"duke","description":"eruditio et religio","capacity":4,"withTV":true,"withWhiteBoard":false},{"id":117,"name":"berkeley","description":"fiat lux","capacity":4,"withTV":true,"withWhiteBoard":false}]},{"id":4,"name":"dark-side","rooms":[{"id":121,"name":"kilimanjaro","description":"it isn\u0027t the mountains ahead to climb that wear you out, it\u0027s the pebble in your shoe","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":122,"name":"half dome","description":"faith moves mountains","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":123,"name":"denali","description":"you can\u0027t move mountains by whispering at them","capacity":4,"withTV":true,"withWhiteBoard":true},{"id":124,"name":"meru","description":"every mountain top is within reach if you just keep climbing","capacity":4,"withTV":true,"withWhiteBoard":true}]}]}, {"id":2,"location":"IL","clusters":[{"id":5,"name":"il","rooms":[{"id":211,"name":"google","description":"don\u0027t be evil","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":212,"name":"apple","description":"think different","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":213,"name":"microsoft","description":"be what\u0027s next","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":214,"name":"bay_area","description":"make future","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":215,"name":"amazon","description":"work hard. have fun. make history","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":216,"name":"tesla","description":"just do it","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":217,"name":"facebook","description":"move fast and break things","capacity":6,"withTV":true,"withWhiteBoard":true}]}]}]</div>
+{"id":57,"firstName":"Ase","lastName":"Norval","role":"student-team-leader"}</div>
                     <div class="step-row">
                         <div class="step-container" id="22">
                             <div class="step-ref passed">22</div>
@@ -298,9 +299,260 @@
                             <div class="step-ref passed">23</div>
                             <div class="step-cell passed">And print response</div>
                         </div>
-                        <div class="time-cell passed">2</div>
+                        <div class="time-cell passed">0</div>
                     </div>
-                    <div class="preformatted" data-parent="23">20:30:14.057 [print] [
+                    <div class="preformatted" data-parent="23">14:32:17.586 [print] {
+  "firstName": "Ase",
+  "lastName": "Norval",
+  "role": "student-team-leader",
+  "id": 57
+}</div>
+                    <div class="step-row">
+                        <div class="step-container" id="24">
+                            <div class="step-ref passed">24</div>
+                            <div class="step-cell passed">And match response == {"id":57,"firstName":"Ase","lastName":"Norval","role":"student-team-leader"}</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                </div>
+                <div class="scenario">
+                    <div class="scenario-heading" id="[2:22]">
+                        <div class="heading-container">
+                            <div class="scenario-tags"></div>
+                            <span class="scenario-keyword">Scenario: [2:22]</span><span class="scenario-name">get campus information </span>
+                        </div>
+                        <div class="scenario-time failed">ms: 1234</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="[2:22]bg">
+                            <div class="step-ref bg-step">&gt;&gt;</div>
+                            <div class="step-cell passed">Background:</div>
+                        </div>
+                        <div class="time-cell passed"></div>
+                    </div>
+                    <div class="step-row" data-parent="[2:22]bg">
+                        <div class="step-container" id="25">
+                            <div class="step-ref bg-step">25</div>
+                            <div class="step-cell passed">* def baseUrl = 'https://cybertek-reservation-api-qa2.herokuapp.com/'</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="preformatted" data-parent="25">14:32:17.247 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</div>
+                    <div class="step-row" data-parent="[2:22]bg">
+                        <div class="step-container">
+                            <div class="step-ref bg-step"></div>
+                            <div class="step-cell comment">#point another feqature file</div>
+                        </div>
+                        <div class="time-cell comment"></div>
+                    </div>
+                    <div class="step-row" data-parent="[2:22]bg">
+                        <div class="step-container" id="26">
+                            <div class="step-ref bg-step">26</div>
+                            <div class="step-cell passed">* def AuthFeature = call read('classpath:features/BookItAuth.feature')</div>
+                        </div>
+                        <div class="time-cell passed">777</div>
+                    </div>
+                    <div class="step-row" data-parent="[2:22]bg">
+                        <div class="step-container" id="26.1">
+                            <div class="step-ref bg-step">&gt;&gt;</div>
+                            <div class="step-cell passed">features/BookItAuth.feature</div>
+                        </div>
+                        <div class="time-cell passed">597</div>
+                    </div>
+                    <div class="step-row" data-parent="[2:22]bg">
+                        <div class="step-container" id="27">
+                            <div class="step-ref bg-step">27</div>
+                            <div class="step-indent"> </div>
+                            <div class="step-cell passed">Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/'</div>
+                        </div>
+                        <div class="time-cell passed">45</div>
+                    </div>
+                    <div class="step-row" data-parent="[2:22]bg">
+                        <div class="step-container" id="28">
+                            <div class="step-ref bg-step">28</div>
+                            <div class="step-indent"> </div>
+                            <div class="step-cell passed">And path 'sign'</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="step-row" data-parent="[2:22]bg">
+                        <div class="step-container" id="29">
+                            <div class="step-ref bg-step">29</div>
+                            <div class="step-indent"> </div>
+                            <div class="step-cell passed">And header Accept = 'application/json'</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="step-row" data-parent="[2:22]bg">
+                        <div class="step-container" id="30">
+                            <div class="step-ref bg-step">30</div>
+                            <div class="step-indent"> </div>
+                            <div class="step-cell passed">And param email = 'sbirdbj@fc2.com'</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="step-row" data-parent="[2:22]bg">
+                        <div class="step-container" id="31">
+                            <div class="step-ref bg-step">31</div>
+                            <div class="step-indent"> </div>
+                            <div class="step-cell passed">And param password = 'asenorval'</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="step-row" data-parent="[2:22]bg">
+                        <div class="step-container" id="32">
+                            <div class="step-ref bg-step">32</div>
+                            <div class="step-indent"> </div>
+                            <div class="step-cell passed">When method GET</div>
+                        </div>
+                        <div class="time-cell passed">550</div>
+                    </div>
+                    <div class="preformatted" data-parent="32">14:32:17.476 request:
+1 &gt; GET https://cybertek-reservation-api-qa2.herokuapp.com/sign?email=sbirdbj%40fc2.com&amp;password=asenorval
+1 &gt; Accept: application/json
+1 &gt; Accept-Encoding: gzip,deflate
+1 &gt; Connection: Keep-Alive
+1 &gt; Host: cybertek-reservation-api-qa2.herokuapp.com
+1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/13.0.1)
+
+14:32:18.023 response time in milliseconds: 544.63
+1 &lt; 200
+1 &lt; Connection: close
+1 &lt; Content-Type: application/json
+1 &lt; Date: Sun, 31 Jan 2021 13:32:22 GMT
+1 &lt; Server: Jetty(9.4.8.v20171121)
+1 &lt; Via: 1.1 vegur
+{"accessToken":"eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1sZWFkZXIifQ.a_N9URDBPGOMcDdEVoaMHsJtk3jOnig0v0SCtSWcsGE","refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1sZWFkZXIifQ.a_N9URDBPGOMcDdEVoaMHsJtk3jOnig0v0SCtSWcsGE"}</div>
+                    <div class="step-row" data-parent="[2:22]bg">
+                        <div class="step-container" id="33">
+                            <div class="step-ref bg-step">33</div>
+                            <div class="step-indent"> </div>
+                            <div class="step-cell passed">Then status 200</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="step-row" data-parent="[2:22]bg">
+                        <div class="step-container" id="34">
+                            <div class="step-ref bg-step">34</div>
+                            <div class="step-indent"> </div>
+                            <div class="step-cell passed">And print response.accessToken</div>
+                        </div>
+                        <div class="time-cell passed">1</div>
+                    </div>
+                    <div class="preformatted" data-parent="34">14:32:18.025 [print] eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1sZWFkZXIifQ.a_N9URDBPGOMcDdEVoaMHsJtk3jOnig0v0SCtSWcsGE</div>
+                    <div class="step-row" data-parent="[2:22]bg">
+                        <div class="step-container" id="35">
+                            <div class="step-ref bg-step">35</div>
+                            <div class="step-indent"> </div>
+                            <div class="step-cell passed">And def token = response.accessToken</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="step-row" data-parent="[2:22]bg">
+                        <div class="step-container" id="36">
+                            <div class="step-ref bg-step">36</div>
+                            <div class="step-indent"> </div>
+                            <div class="step-cell passed">And def name = 'steven'</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="step-row" data-parent="[2:22]bg">
+                        <div class="step-container" id="37">
+                            <div class="step-ref bg-step">37</div>
+                            <div class="step-cell passed">* def accessToken = AuthFeature.token</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="step-row" data-parent="[2:22]bg">
+                        <div class="step-container" id="38">
+                            <div class="step-ref bg-step">38</div>
+                            <div class="step-cell passed">* def firstname =  AuthFeature.name</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="step-row" data-parent="[2:22]bg">
+                        <div class="step-container" id="39">
+                            <div class="step-ref bg-step">39</div>
+                            <div class="step-cell passed">* print firstname</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="preformatted" data-parent="39">14:32:18.027 [print] steven</div>
+                    <div class="step-row" data-parent="[2:22]bg">
+                        <div class="step-container" id="40">
+                            <div class="step-ref bg-step">40</div>
+                            <div class="step-cell passed">* print 'Token From Background',accessToken</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="preformatted" data-parent="40">14:32:18.028 [print] Token From Background eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1sZWFkZXIifQ.a_N9URDBPGOMcDdEVoaMHsJtk3jOnig0v0SCtSWcsGE</div>
+                    <div class="step-row">
+                        <div class="step-container" id="41">
+                            <div class="step-ref passed">41</div>
+                            <div class="step-cell passed">Given url baseUrl</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="42">
+                            <div class="step-ref passed">42</div>
+                            <div class="step-cell passed">And path 'api/campuses'</div>
+                        </div>
+                        <div class="time-cell passed">5</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="43">
+                            <div class="step-ref passed">43</div>
+                            <div class="step-cell passed">And header Authorization = 'Bearer '+accessToken</div>
+                        </div>
+                        <div class="time-cell passed">1</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="44">
+                            <div class="step-ref passed">44</div>
+                            <div class="step-cell passed">And header Accept = 'application/json'</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="45">
+                            <div class="step-ref passed">45</div>
+                            <div class="step-cell passed">When method GET</div>
+                        </div>
+                        <div class="time-cell passed">436</div>
+                    </div>
+                    <div class="preformatted" data-parent="45">14:32:18.039 request:
+1 &gt; GET https://cybertek-reservation-api-qa2.herokuapp.com/api/campuses
+1 &gt; Accept: application/json
+1 &gt; Accept-Encoding: gzip,deflate
+1 &gt; Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1sZWFkZXIifQ.a_N9URDBPGOMcDdEVoaMHsJtk3jOnig0v0SCtSWcsGE
+1 &gt; Connection: Keep-Alive
+1 &gt; Host: cybertek-reservation-api-qa2.herokuapp.com
+1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/13.0.1)
+
+14:32:18.471 response time in milliseconds: 431.06
+1 &lt; 200
+1 &lt; Connection: close
+1 &lt; Content-Type: application/json
+1 &lt; Date: Sun, 31 Jan 2021 13:32:23 GMT
+1 &lt; Server: Jetty(9.4.8.v20171121)
+1 &lt; Via: 1.1 vegur
+[{"id":1,"location":"VA","clusters":[{"id":3,"name":"light-side","rooms":[{"id":111,"name":"mit","description":"mens et manus","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":112,"name":"harvard","description":"veritas","capacity":6,"withTV":true,"withWhiteBoard":false},{"id":113,"name":"yale","description":"lux et veritas","capacity":6,"withTV":true,"withWhiteBoard":false},{"id":114,"name":"princeton","description":"dei sub numine viget","capacity":4,"withTV":true,"withWhiteBoard":false},{"id":115,"name":"stanford","description":"die luft der freiheit weht","capacity":6,"withTV":false,"withWhiteBoard":true},{"id":116,"name":"duke","description":"eruditio et religio","capacity":4,"withTV":true,"withWhiteBoard":false},{"id":117,"name":"berkeley","description":"fiat lux","capacity":4,"withTV":true,"withWhiteBoard":false}]},{"id":4,"name":"dark-side","rooms":[{"id":121,"name":"kilimanjaro","description":"it isn\u0027t the mountains ahead to climb that wear you out, it\u0027s the pebble in your shoe","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":122,"name":"half dome","description":"faith moves mountains","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":123,"name":"denali","description":"you can\u0027t move mountains by whispering at them","capacity":4,"withTV":true,"withWhiteBoard":true},{"id":124,"name":"meru","description":"every mountain top is within reach if you just keep climbing","capacity":4,"withTV":true,"withWhiteBoard":true}]}]}, {"id":2,"location":"IL","clusters":[{"id":5,"name":"il","rooms":[{"id":211,"name":"google","description":"don\u0027t be evil","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":212,"name":"apple","description":"think different","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":213,"name":"microsoft","description":"be what\u0027s next","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":214,"name":"bay_area","description":"make future","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":215,"name":"amazon","description":"work hard. have fun. make history","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":216,"name":"tesla","description":"just do it","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":217,"name":"facebook","description":"move fast and break things","capacity":6,"withTV":true,"withWhiteBoard":true}]}]}]</div>
+                    <div class="step-row">
+                        <div class="step-container" id="46">
+                            <div class="step-ref passed">46</div>
+                            <div class="step-cell passed">Then status 200</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="47">
+                            <div class="step-ref passed">47</div>
+                            <div class="step-cell passed">And print response</div>
+                        </div>
+                        <div class="time-cell passed">1</div>
+                    </div>
+                    <div class="preformatted" data-parent="47">14:32:18.474 [print] [
   {
     "location": "VA",
     "id": 1,
@@ -484,19 +736,21 @@
                         <div class="time-cell comment"></div>
                     </div>
                     <div class="step-row">
-                        <div class="step-container" id="24">
-                            <div class="step-ref passed">24</div>
+                        <div class="step-container" id="48">
+                            <div class="step-ref passed">48</div>
                             <div class="step-cell passed">And def expectedCampuses = read('classpath:data/campuses.json')</div>
                         </div>
-                        <div class="time-cell passed">104</div>
+                        <div class="time-cell passed">8</div>
                     </div>
                     <div class="step-row">
-                        <div class="step-container" id="25">
-                            <div class="step-ref passed">25</div>
-                            <div class="step-cell passed">And match response == expectedCampuses</div>
+                        <div class="step-container" id="49">
+                            <div class="step-ref failed">49</div>
+                            <div class="step-cell failed">And match response == expectedCampuses</div>
                         </div>
-                        <div class="time-cell passed">3</div>
+                        <div class="time-cell failed">3</div>
                     </div>
+                    <div class="preformatted" data-parent="49">14:32:18.485 assertion failed: path: $[1], actual: {"location":"IL","id":2,"clusters":[{"rooms":[{"withTV":true,"name":"google","description":"don't be evil","id":211,"withWhiteBoard":true,"capacity":6},{"withTV":true,"name":"apple","description":"think different","id":212,"withWhiteBoard":true,"capacity":6},{"withTV":true,"name":"microsoft","description":"be what's next","id":213,"withWhiteBoard":true,"capacity":6},{"withTV":true,"name":"bay_area","description":"make future","id":214,"withWhiteBoard":true,"capacity":6},{"withTV":true,"name":"amazon","description":"work hard. have fun. make history","id":215,"withWhiteBoard":true,"capacity":6},{"withTV":true,"name":"tesla","description":"just do it","id":216,"withWhiteBoard":true,"capacity":6},{"withTV":true,"name":"facebook","description":"move fast and break things","id":217,"withWhiteBoard":true,"capacity":6}],"name":"il","id":5}]}, expected: {id=2, location=IL, clusters=[{"id":5,"name":"il","rooms":[{"id":211,"name":"google","description":"don't be evil","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":212,"name":"apple ","description":"think different","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":213,"name":"microsoft","description":"be what's next","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":214,"name":"bay_area","description":"make future","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":215,"name":"amazon","description":"work hard. have fun. make history","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":216,"name":"tesla","description":"just do it","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":217,"name":"facebook","description":"move fast and break things","capacity":6,"withTV":true,"withWhiteBoard":true}]}]}, reason: [path: $[1].clusters[0], actual: {"rooms":[{"withTV":true,"name":"google","description":"don't be evil","id":211,"withWhiteBoard":true,"capacity":6},{"withTV":true,"name":"apple","description":"think different","id":212,"withWhiteBoard":true,"capacity":6},{"withTV":true,"name":"microsoft","description":"be what's next","id":213,"withWhiteBoard":true,"capacity":6},{"withTV":true,"name":"bay_area","description":"make future","id":214,"withWhiteBoard":true,"capacity":6},{"withTV":true,"name":"amazon","description":"work hard. have fun. make history","id":215,"withWhiteBoard":true,"capacity":6},{"withTV":true,"name":"tesla","description":"just do it","id":216,"withWhiteBoard":true,"capacity":6},{"withTV":true,"name":"facebook","description":"move fast and break things","id":217,"withWhiteBoard":true,"capacity":6}],"name":"il","id":5}, expected: {id=5, name=il, rooms=[{"id":211,"name":"google","description":"don't be evil","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":212,"name":"apple ","description":"think different","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":213,"name":"microsoft","description":"be what's next","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":214,"name":"bay_area","description":"make future","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":215,"name":"amazon","description":"work hard. have fun. make history","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":216,"name":"tesla","description":"just do it","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":217,"name":"facebook","description":"move fast and break things","capacity":6,"withTV":true,"withWhiteBoard":true}]}, reason: [path: $[1].clusters[0].rooms[1], actual: {"withTV":true,"name":"apple","description":"think different","id":212,"withWhiteBoard":true,"capacity":6}, expected: {id=212, name=apple , description=think different, capacity=6, withTV=true, withWhiteBoard=true}, reason: [path: $[1].clusters[0].rooms[1].name, actual: 'apple', expected: 'apple ', reason: not equal]]]
+BookItTests.feature:32 - path: $[1], actual: {"location":"IL","id":2,"clusters":[{"rooms":[{"withTV":true,"name":"google","description":"don't be evil","id":211,"withWhiteBoard":true,"capacity":6},{"withTV":true,"name":"apple","description":"think different","id":212,"withWhiteBoard":true,"capacity":6},{"withTV":true,"name":"microsoft","description":"be what's next","id":213,"withWhiteBoard":true,"capacity":6},{"withTV":true,"name":"bay_area","description":"make future","id":214,"withWhiteBoard":true,"capacity":6},{"withTV":true,"name":"amazon","description":"work hard. have fun. make history","id":215,"withWhiteBoard":true,"capacity":6},{"withTV":true,"name":"tesla","description":"just do it","id":216,"withWhiteBoard":true,"capacity":6},{"withTV":true,"name":"facebook","description":"move fast and break things","id":217,"withWhiteBoard":true,"capacity":6}],"name":"il","id":5}]}, expected: {id=2, location=IL, clusters=[{"id":5,"name":"il","rooms":[{"id":211,"name":"google","description":"don't be evil","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":212,"name":"apple ","description":"think different","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":213,"name":"microsoft","description":"be what's next","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":214,"name":"bay_area","description":"make future","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":215,"name":"amazon","description":"work hard. have fun. make history","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":216,"name":"tesla","description":"just do it","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":217,"name":"facebook","description":"move fast and break things","capacity":6,"withTV":true,"withWhiteBoard":true}]}]}, reason: [path: $[1].clusters[0], actual: {"rooms":[{"withTV":true,"name":"google","description":"don't be evil","id":211,"withWhiteBoard":true,"capacity":6},{"withTV":true,"name":"apple","description":"think different","id":212,"withWhiteBoard":true,"capacity":6},{"withTV":true,"name":"microsoft","description":"be what's next","id":213,"withWhiteBoard":true,"capacity":6},{"withTV":true,"name":"bay_area","description":"make future","id":214,"withWhiteBoard":true,"capacity":6},{"withTV":true,"name":"amazon","description":"work hard. have fun. make history","id":215,"withWhiteBoard":true,"capacity":6},{"withTV":true,"name":"tesla","description":"just do it","id":216,"withWhiteBoard":true,"capacity":6},{"withTV":true,"name":"facebook","description":"move fast and break things","id":217,"withWhiteBoard":true,"capacity":6}],"name":"il","id":5}, expected: {id=5, name=il, rooms=[{"id":211,"name":"google","description":"don't be evil","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":212,"name":"apple ","description":"think different","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":213,"name":"microsoft","description":"be what's next","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":214,"name":"bay_area","description":"make future","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":215,"name":"amazon","description":"work hard. have fun. make history","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":216,"name":"tesla","description":"just do it","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":217,"name":"facebook","description":"move fast and break things","capacity":6,"withTV":true,"withWhiteBoard":true}]}, reason: [path: $[1].clusters[0].rooms[1], actual: {"withTV":true,"name":"apple","description":"think different","id":212,"withWhiteBoard":true,"capacity":6}, expected: {id=212, name=apple , description=think different, capacity=6, withTV=true, withWhiteBoard=true}, reason: [path: $[1].clusters[0].rooms[1].name, actual: 'apple', expected: 'apple ', reason: not equal]]]</div>
                 </div>
             </div>
                 

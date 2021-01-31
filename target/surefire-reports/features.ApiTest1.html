@@ -35,7 +35,7 @@
           
                     <div class="nav-count">
                                     
-                        <div class="bg-success" id="nav-pass">1</div>
+                        <div class="bg-success" id="nav-pass">4</div>
                                     
                         <div class="bg-danger" id="nav-fail">0</div>
                                   
@@ -46,10 +46,19 @@
                 <div id="nav-type">Scenarios</div>
                          
         
-                <div id="nav-date">2021-01-16 07:23:48 AM</div>
+                <div id="nav-date">2021-01-31 02:32:52 PM</div>
                         
       
                 <div class="nav-container">
+                    <div class="nav-item passed">
+                        <a href="#[1:2]">[1:2] basic test with status code validation </a>
+                    </div>
+                    <div class="nav-item passed">
+                        <a href="#[2:8]">[2:8] get rates of specific day </a>
+                    </div>
+                    <div class="nav-item passed">
+                        <a href="#[3:12]">[3:12] hedare verification </a>
+                    </div>
                     <div class="nav-item passed">
                         <a href="#[4:22]">[4:22] json body verification </a>
                     </div>
@@ -62,58 +71,56 @@
                     <a href="karate-summary.html">Summary</a><span class="feature-label">|</span><a href="karate-tags.html">Tags</a><span class="feature-label">|</span><span class="feature-label">Feature:</span><span class="feature-name">features/ApiTest1.feature</span><span class="feature-description">exchange rate api tests</span>
                 </div>
                 <div class="scenario">
-                    <div class="scenario-heading" id="[4:22]">
+                    <div class="scenario-heading" id="[1:2]">
                         <div class="heading-container">
-                            <div class="scenario-tags">
-                                <a class="badge badge-primary" href="karate-tags.html">wip</a>
-                            </div>
-                            <span class="scenario-keyword">Scenario: [4:22]</span><span class="scenario-name">json body verification </span>
+                            <div class="scenario-tags"></div>
+                            <span class="scenario-keyword">Scenario: [1:2]</span><span class="scenario-name">basic test with status code validation </span>
                         </div>
-                        <div class="scenario-time passed">ms: 1134</div>
+                        <div class="scenario-time passed">ms: 1921</div>
                     </div>
                     <div class="step-row">
                         <div class="step-container" id="1">
                             <div class="step-ref passed">1</div>
-                            <div class="step-cell passed">Given url 'https://api.exchangeratesapi.io/2010-01-12'</div>
+                            <div class="step-cell passed">Given url 'https://api.exchangeratesapi.io/latest'</div>
                         </div>
-                        <div class="time-cell passed">13</div>
+                        <div class="time-cell passed">6</div>
                     </div>
-                    <div class="preformatted" data-parent="1">07:23:47.353 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</div>
+                    <div class="preformatted" data-parent="1">14:32:14.574 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</div>
                     <div class="step-row">
                         <div class="step-container" id="2">
                             <div class="step-ref passed">2</div>
                             <div class="step-cell passed">When method GET</div>
                         </div>
-                        <div class="time-cell passed">1057</div>
+                        <div class="time-cell passed">1915</div>
                     </div>
-                    <div class="preformatted" data-parent="2">07:23:48.020 request:
-1 &gt; GET https://api.exchangeratesapi.io/2010-01-12
+                    <div class="preformatted" data-parent="2">14:32:16.003 request:
+1 &gt; GET https://api.exchangeratesapi.io/latest
 1 &gt; Accept-Encoding: gzip,deflate
 1 &gt; Connection: Keep-Alive
 1 &gt; Host: api.exchangeratesapi.io
 1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/13.0.1)
 
-07:23:48.412 response time in milliseconds: 387.37
+14:32:16.558 response time in milliseconds: 550.49
 1 &lt; 200
 1 &lt; Access-Control-Allow-Credentials: true
 1 &lt; Access-Control-Allow-Methods: GET
 1 &lt; Access-Control-Allow-Origin: *
-1 &lt; Age: 1396
+1 &lt; Age: 2466
 1 &lt; CF-Cache-Status: HIT
-1 &lt; CF-RAY: 6125c010fd701786-FRA
+1 &lt; CF-RAY: 61a3cc5a39584ac2-FRA
 1 &lt; Cache-Control: max-age=1800
 1 &lt; Connection: keep-alive
 1 &lt; Content-Type: application/json
-1 &lt; Date: Sat, 16 Jan 2021 06:23:52 GMT
+1 &lt; Date: Sun, 31 Jan 2021 13:32:21 GMT
 1 &lt; Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
 1 &lt; NEL: {"report_to":"cf-nel","max_age":604800}
-1 &lt; Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=zakIkq4iAi52eZHrDtaptRKosz5ebDrtPXYvzVm7ry6%2FbKnWqI7bOAyEmqd3XoryVns14QWjCObJsVGN8XGvKAjwHsyLhMudU99PF7m76CaniI%2Fc6vdwLA%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 &lt; Report-To: {"max_age":604800,"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=hM5II%2FDwtulRTLIKFlDFmp9o6%2BSc%2BbJORmzRUfosjvzKcti%2FFrbw3e8UbGQKjqCO0P1O6ni6aSGLAr8K1qmKg3%2FPIpW7mItR7DEOY7Hn3%2BMszL2cTZQ80Q%3D%3D"}],"group":"cf-nel"}
 1 &lt; Server: cloudflare
-1 &lt; Set-Cookie: __cfduid=d2ba97d11e7038ea93bd4e800a10042e91610778232; expires=Mon, 15-Feb-21 06:23:52 GMT; path=/; domain=.exchangeratesapi.io; HttpOnly; SameSite=Lax
+1 &lt; Set-Cookie: __cfduid=d191ba6134a6e6ebce3caa1b9fb6e13611612099941; expires=Tue, 02-Mar-21 13:32:21 GMT; path=/; domain=.exchangeratesapi.io; HttpOnly; SameSite=Lax
 1 &lt; Transfer-Encoding: chunked
 1 &lt; Vary: Accept-Encoding
-1 &lt; cf-request-id: 07ab765e9c000017860a8ab000000001
-{"rates":{"CAD":1.4959,"HKD":11.2301,"LVL":0.7093,"PHP":66.106,"DKK":7.4405,"HUF":268.18,"CZK":26.258,"AUD":1.5668,"RON":4.1405,"SEK":10.2215,"IDR":13281.14,"INR":66.21,"BRL":2.5309,"RUB":42.6974,"LTL":3.4528,"JPY":132.41,"THB":47.839,"CHF":1.4743,"SGD":2.0133,"PLN":4.0838,"BGN":1.9558,"TRY":2.1084,"CNY":9.8863,"NOK":8.1825,"NZD":1.9573,"ZAR":10.8264,"USD":1.4481,"MXN":18.4995,"EEK":15.6466,"GBP":0.8972,"KRW":1627.4,"MYR":4.8424,"HRK":7.2753},"base":"EUR","date":"2010-01-12"}</div>
+1 &lt; cf-request-id: 07fa3e0c5f00004ac20f9db000000001
+{"rates":{"CAD":1.552,"HKD":9.4093,"ISK":156.1,"PHP":58.333,"DKK":7.437,"HUF":358.39,"CZK":26.02,"AUD":1.5819,"RON":4.875,"SEK":10.111,"IDR":16994.16,"INR":88.432,"BRL":6.6568,"RUB":91.8979,"HRK":7.5658,"JPY":127.05,"THB":36.287,"CHF":1.0798,"SGD":1.6121,"PLN":4.5304,"BGN":1.9558,"TRY":8.8772,"CNY":7.8047,"NOK":10.343,"NZD":1.6863,"ZAR":18.3058,"USD":1.2136,"MXN":24.5417,"ILS":3.9814,"GBP":0.88383,"KRW":1354.98,"MYR":4.906},"base":"EUR","date":"2021-01-29"}</div>
                     <div class="step-row">
                         <div class="step-container" id="3">
                             <div class="step-ref passed">3</div>
@@ -121,21 +128,233 @@
                         </div>
                         <div class="time-cell passed">0</div>
                     </div>
+                </div>
+                <div class="scenario">
+                    <div class="scenario-heading" id="[2:8]">
+                        <div class="heading-container">
+                            <div class="scenario-tags"></div>
+                            <span class="scenario-keyword">Scenario: [2:8]</span><span class="scenario-name">get rates of specific day </span>
+                        </div>
+                        <div class="scenario-time passed">ms: 1691</div>
+                    </div>
                     <div class="step-row">
                         <div class="step-container" id="4">
                             <div class="step-ref passed">4</div>
-                            <div class="step-cell passed">And match header Content-Type == 'application/json'</div>
+                            <div class="step-cell passed">Given url 'https://api.exchangeratesapi.io/2010-01-12'</div>
                         </div>
-                        <div class="time-cell passed">26</div>
+                        <div class="time-cell passed">6</div>
                     </div>
+                    <div class="preformatted" data-parent="4">14:32:14.921 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</div>
                     <div class="step-row">
                         <div class="step-container" id="5">
                             <div class="step-ref passed">5</div>
+                            <div class="step-cell passed">When method GET</div>
+                        </div>
+                        <div class="time-cell passed">1685</div>
+                    </div>
+                    <div class="preformatted" data-parent="5">14:32:16.003 request:
+1 &gt; GET https://api.exchangeratesapi.io/2010-01-12
+1 &gt; Accept-Encoding: gzip,deflate
+1 &gt; Connection: Keep-Alive
+1 &gt; Host: api.exchangeratesapi.io
+1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/13.0.1)
+
+14:32:16.558 response time in milliseconds: 550.04
+1 &lt; 200
+1 &lt; Access-Control-Allow-Credentials: true
+1 &lt; Access-Control-Allow-Methods: GET
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Age: 691
+1 &lt; CF-Cache-Status: HIT
+1 &lt; CF-RAY: 61a3cc5a2e1e1f25-FRA
+1 &lt; Cache-Control: max-age=1800
+1 &lt; Connection: keep-alive
+1 &lt; Content-Type: application/json
+1 &lt; Date: Sun, 31 Jan 2021 13:32:21 GMT
+1 &lt; Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 &lt; NEL: {"max_age":604800,"report_to":"cf-nel"}
+1 &lt; Report-To: {"max_age":604800,"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=BU4V2BjJrv1gaku8DykD%2FbmdQf25tBPVp5p4djv7C6u8jiYYx3b%2BVSVxpR%2BZ9ZmvGurquctO1DQwIn8PChjCPxJSIisSTarvKwWH57HGKt30WscpKhJ8ug%3D%3D"}],"group":"cf-nel"}
+1 &lt; Server: cloudflare
+1 &lt; Set-Cookie: __cfduid=d6d303bfd68b02de94a2471c1dc65c32d1612099941; expires=Tue, 02-Mar-21 13:32:21 GMT; path=/; domain=.exchangeratesapi.io; HttpOnly; SameSite=Lax
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Vary: Accept-Encoding
+1 &lt; cf-request-id: 07fa3e0c5d00001f25ea19c000000001
+{"rates":{"CAD":1.4959,"HKD":11.2301,"LVL":0.7093,"PHP":66.106,"DKK":7.4405,"HUF":268.18,"CZK":26.258,"AUD":1.5668,"RON":4.1405,"SEK":10.2215,"IDR":13281.14,"INR":66.21,"BRL":2.5309,"RUB":42.6974,"LTL":3.4528,"JPY":132.41,"THB":47.839,"CHF":1.4743,"SGD":2.0133,"PLN":4.0838,"BGN":1.9558,"TRY":2.1084,"CNY":9.8863,"NOK":8.1825,"NZD":1.9573,"ZAR":10.8264,"USD":1.4481,"MXN":18.4995,"EEK":15.6466,"GBP":0.8972,"KRW":1627.4,"MYR":4.8424,"HRK":7.2753},"base":"EUR","date":"2010-01-12"}</div>
+                    <div class="step-row">
+                        <div class="step-container" id="6">
+                            <div class="step-ref passed">6</div>
+                            <div class="step-cell passed">Then status 200</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                </div>
+                <div class="scenario">
+                    <div class="scenario-heading" id="[3:12]">
+                        <div class="heading-container">
+                            <div class="scenario-tags"></div>
+                            <span class="scenario-keyword">Scenario: [3:12]</span><span class="scenario-name">hedare verification </span>
+                        </div>
+                        <div class="scenario-time passed">ms: 1701</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="7">
+                            <div class="step-ref passed">7</div>
+                            <div class="step-cell passed">Given url 'https://api.exchangeratesapi.io/2010-01-12'</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="preformatted" data-parent="7">14:32:14.956 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</div>
+                    <div class="step-row">
+                        <div class="step-container" id="8">
+                            <div class="step-ref passed">8</div>
+                            <div class="step-cell passed">When method GET</div>
+                        </div>
+                        <div class="time-cell passed">1683</div>
+                    </div>
+                    <div class="preformatted" data-parent="8">14:32:16.003 request:
+1 &gt; GET https://api.exchangeratesapi.io/2010-01-12
+1 &gt; Accept-Encoding: gzip,deflate
+1 &gt; Connection: Keep-Alive
+1 &gt; Host: api.exchangeratesapi.io
+1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/13.0.1)
+
+14:32:16.642 response time in milliseconds: 636.71
+1 &lt; 200
+1 &lt; Access-Control-Allow-Credentials: true
+1 &lt; Access-Control-Allow-Methods: GET
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Age: 691
+1 &lt; CF-Cache-Status: HIT
+1 &lt; CF-RAY: 61a3cc5ace374aaa-FRA
+1 &lt; Cache-Control: max-age=1800
+1 &lt; Connection: keep-alive
+1 &lt; Content-Type: application/json
+1 &lt; Date: Sun, 31 Jan 2021 13:32:21 GMT
+1 &lt; Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 &lt; NEL: {"report_to":"cf-nel","max_age":604800}
+1 &lt; Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=NF6%2B1mZXdIZJ2kmvELH8RnB6XuxVzXVVwtyvj8ssoGM%2FmWfFyM8qCfdJmqRoyHBeuIoQf%2Bk%2FQeMgeNmzS89cFgJjpvvBzCmX1VERe%2F0uDeQqidnFY64jTQ%3D%3D"}]}
+1 &lt; Server: cloudflare
+1 &lt; Set-Cookie: __cfduid=df5ba2d7784534795e0e34fa7f606262b1612099941; expires=Tue, 02-Mar-21 13:32:21 GMT; path=/; domain=.exchangeratesapi.io; HttpOnly; SameSite=Lax
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Vary: Accept-Encoding
+1 &lt; cf-request-id: 07fa3e0cbd00004aaa6108e000000001
+{"rates":{"CAD":1.4959,"HKD":11.2301,"LVL":0.7093,"PHP":66.106,"DKK":7.4405,"HUF":268.18,"CZK":26.258,"AUD":1.5668,"RON":4.1405,"SEK":10.2215,"IDR":13281.14,"INR":66.21,"BRL":2.5309,"RUB":42.6974,"LTL":3.4528,"JPY":132.41,"THB":47.839,"CHF":1.4743,"SGD":2.0133,"PLN":4.0838,"BGN":1.9558,"TRY":2.1084,"CNY":9.8863,"NOK":8.1825,"NZD":1.9573,"ZAR":10.8264,"USD":1.4481,"MXN":18.4995,"EEK":15.6466,"GBP":0.8972,"KRW":1627.4,"MYR":4.8424,"HRK":7.2753},"base":"EUR","date":"2010-01-12"}</div>
+                    <div class="step-row">
+                        <div class="step-container" id="9">
+                            <div class="step-ref passed">9</div>
+                            <div class="step-cell passed">Then status 200</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="10">
+                            <div class="step-ref passed">10</div>
+                            <div class="step-cell passed">And match header Content-Type == 'application/json'</div>
+                        </div>
+                        <div class="time-cell passed">2</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="11">
+                            <div class="step-ref passed">11</div>
+                            <div class="step-cell passed">And match header Vary == 'Accept-Encoding'</div>
+                        </div>
+                        <div class="time-cell passed">6</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="12">
+                            <div class="step-ref passed">12</div>
+                            <div class="step-cell passed">And match header Connection == 'keep-alive'</div>
+                        </div>
+                        <div class="time-cell passed">6</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container">
+                            <div class="step-ref passed"></div>
+                            <div class="step-cell comment">#header verify</div>
+                        </div>
+                        <div class="time-cell comment"></div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="13">
+                            <div class="step-ref passed">13</div>
+                            <div class="step-cell passed">And match header Date == '#present'</div>
+                        </div>
+                        <div class="time-cell passed">5</div>
+                    </div>
+                </div>
+                <div class="scenario">
+                    <div class="scenario-heading" id="[4:22]">
+                        <div class="heading-container">
+                            <div class="scenario-tags"></div>
+                            <span class="scenario-keyword">Scenario: [4:22]</span><span class="scenario-name">json body verification </span>
+                        </div>
+                        <div class="scenario-time passed">ms: 356</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="14">
+                            <div class="step-ref passed">14</div>
+                            <div class="step-cell passed">Given url 'https://api.exchangeratesapi.io/2010-01-12'</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="preformatted" data-parent="14">14:32:16.575 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</div>
+                    <div class="step-row">
+                        <div class="step-container" id="15">
+                            <div class="step-ref passed">15</div>
+                            <div class="step-cell passed">When method GET</div>
+                        </div>
+                        <div class="time-cell passed">152</div>
+                    </div>
+                    <div class="preformatted" data-parent="15">14:32:16.577 request:
+1 &gt; GET https://api.exchangeratesapi.io/2010-01-12
+1 &gt; Accept-Encoding: gzip,deflate
+1 &gt; Connection: Keep-Alive
+1 &gt; Host: api.exchangeratesapi.io
+1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/13.0.1)
+
+14:32:16.726 response time in milliseconds: 147.79
+1 &lt; 200
+1 &lt; Access-Control-Allow-Credentials: true
+1 &lt; Access-Control-Allow-Methods: GET
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Age: 691
+1 &lt; CF-Cache-Status: HIT
+1 &lt; CF-RAY: 61a3cc5b5a541f1d-FRA
+1 &lt; Cache-Control: max-age=1800
+1 &lt; Connection: keep-alive
+1 &lt; Content-Type: application/json
+1 &lt; Date: Sun, 31 Jan 2021 13:32:21 GMT
+1 &lt; Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 &lt; NEL: {"report_to":"cf-nel","max_age":604800}
+1 &lt; Report-To: {"max_age":604800,"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=hs2nwCfWxePHKlRJwpSB61149XBbUGHqVp26MQh70q46TpcTB907kJIeaM4kRK0DE0%2BsRl6t4dv3mnlK39KloUugD7vr09sYZk6RwSsbILexUYAxQB0jkQ%3D%3D"}],"group":"cf-nel"}
+1 &lt; Server: cloudflare
+1 &lt; Set-Cookie: __cfduid=d3f2a001be92bde2fdc71e78602e1512f1612099941; expires=Tue, 02-Mar-21 13:32:21 GMT; path=/; domain=.exchangeratesapi.io; HttpOnly; SameSite=Lax
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Vary: Accept-Encoding
+1 &lt; cf-request-id: 07fa3e0d1c00001f1d42a5e000000001
+{"rates":{"CAD":1.4959,"HKD":11.2301,"LVL":0.7093,"PHP":66.106,"DKK":7.4405,"HUF":268.18,"CZK":26.258,"AUD":1.5668,"RON":4.1405,"SEK":10.2215,"IDR":13281.14,"INR":66.21,"BRL":2.5309,"RUB":42.6974,"LTL":3.4528,"JPY":132.41,"THB":47.839,"CHF":1.4743,"SGD":2.0133,"PLN":4.0838,"BGN":1.9558,"TRY":2.1084,"CNY":9.8863,"NOK":8.1825,"NZD":1.9573,"ZAR":10.8264,"USD":1.4481,"MXN":18.4995,"EEK":15.6466,"GBP":0.8972,"KRW":1627.4,"MYR":4.8424,"HRK":7.2753},"base":"EUR","date":"2010-01-12"}</div>
+                    <div class="step-row">
+                        <div class="step-container" id="16">
+                            <div class="step-ref passed">16</div>
+                            <div class="step-cell passed">Then status 200</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="17">
+                            <div class="step-ref passed">17</div>
+                            <div class="step-cell passed">And match header Content-Type == 'application/json'</div>
+                        </div>
+                        <div class="time-cell passed">8</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="18">
+                            <div class="step-ref passed">18</div>
                             <div class="step-cell passed">And print response</div>
                         </div>
                         <div class="time-cell passed">1</div>
                     </div>
-                    <div class="preformatted" data-parent="5">07:23:48.475 [print] {
+                    <div class="preformatted" data-parent="18">14:32:16.736 [print] {
   "date": "2010-01-12",
   "rates": {
     "CHF": 1.4743,
@@ -175,13 +394,13 @@
   "base": "EUR"
 }</div>
                     <div class="step-row">
-                        <div class="step-container" id="6">
-                            <div class="step-ref passed">6</div>
+                        <div class="step-container" id="19">
+                            <div class="step-ref passed">19</div>
                             <div class="step-cell passed">And print respone.base</div>
                         </div>
-                        <div class="time-cell passed">23</div>
+                        <div class="time-cell passed">16</div>
                     </div>
-                    <div class="preformatted" data-parent="6">07:23:48.499 [print]</div>
+                    <div class="preformatted" data-parent="19">14:32:16.753 [print]</div>
                     <div class="step-row">
                         <div class="step-container">
                             <div class="step-ref passed"></div>
@@ -190,18 +409,75 @@
                         <div class="time-cell comment"></div>
                     </div>
                     <div class="step-row">
-                        <div class="step-container" id="7">
-                            <div class="step-ref passed">7</div>
+                        <div class="step-container" id="20">
+                            <div class="step-ref passed">20</div>
                             <div class="step-cell passed">And match response.base == 'EUR'</div>
                         </div>
-                        <div class="time-cell passed">9</div>
+                        <div class="time-cell passed">5</div>
                     </div>
                     <div class="step-row">
-                        <div class="step-container" id="8">
-                            <div class="step-ref passed">8</div>
+                        <div class="step-container" id="21">
+                            <div class="step-ref passed">21</div>
+                            <div class="step-cell passed">And print response.rates</div>
+                        </div>
+                        <div class="time-cell passed">14</div>
+                    </div>
+                    <div class="preformatted" data-parent="21">14:32:16.772 [print] {
+  "CHF": 1.4743,
+  "HRK": 7.2753,
+  "MXN": 18.4995,
+  "LVL": 0.7093,
+  "LTL": 3.4528,
+  "ZAR": 10.8264,
+  "INR": 66.21,
+  "THB": 47.839,
+  "CNY": 9.8863,
+  "AUD": 1.5668,
+  "KRW": 1627.4,
+  "JPY": 132.41,
+  "PLN": 4.0838,
+  "GBP": 0.8972,
+  "IDR": 13281.14,
+  "HUF": 268.18,
+  "PHP": 66.106,
+  "TRY": 2.1084,
+  "RUB": 42.6974,
+  "HKD": 11.2301,
+  "DKK": 7.4405,
+  "CAD": 1.4959,
+  "USD": 1.4481,
+  "MYR": 4.8424,
+  "BGN": 1.9558,
+  "EEK": 15.6466,
+  "NOK": 8.1825,
+  "RON": 4.1405,
+  "SGD": 2.0133,
+  "CZK": 26.258,
+  "SEK": 10.2215,
+  "NZD": 1.9573,
+  "BRL": 2.5309
+}</div>
+                    <div class="step-row">
+                        <div class="step-container" id="22">
+                            <div class="step-ref passed">22</div>
+                            <div class="step-cell passed">And print response.rates.USD</div>
+                        </div>
+                        <div class="time-cell passed">147</div>
+                    </div>
+                    <div class="preformatted" data-parent="22">14:32:16.919 [print] 1.4481</div>
+                    <div class="step-row">
+                        <div class="step-container" id="23">
+                            <div class="step-ref passed">23</div>
+                            <div class="step-cell passed">And match response.rates.USD == '#present'</div>
+                        </div>
+                        <div class="time-cell passed">1</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="24">
+                            <div class="step-ref passed">24</div>
                             <div class="step-cell passed">And match response.rates.USD == 1.4481</div>
                         </div>
-                        <div class="time-cell passed">5</div>
+                        <div class="time-cell passed">12</div>
                     </div>
                 </div>
             </div>

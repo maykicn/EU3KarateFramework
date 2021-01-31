@@ -35,7 +35,7 @@
           
                     <div class="nav-count">
                                     
-                        <div class="bg-success" id="nav-pass">1</div>
+                        <div class="bg-success" id="nav-pass">7</div>
                                     
                         <div class="bg-danger" id="nav-fail">0</div>
                                   
@@ -46,10 +46,28 @@
                 <div id="nav-type">Scenarios</div>
                          
         
-                <div id="nav-date">2021-01-15 05:29:58 PM</div>
+                <div id="nav-date">2021-01-31 02:32:52 PM</div>
                         
       
                 <div class="nav-container">
+                    <div class="nav-item passed">
+                        <a href="#[1:2]">[1:2] how to print </a>
+                    </div>
+                    <div class="nav-item passed">
+                        <a href="#[2:8]">[2:8] more printing </a>
+                    </div>
+                    <div class="nav-item passed">
+                        <a href="#[3:16]">[3:16] variables </a>
+                    </div>
+                    <div class="nav-item passed">
+                        <a href="#[4:22]">[4:22] difficult parameters: json object </a>
+                    </div>
+                    <div class="nav-item passed">
+                        <a href="#[5:29]">[5:29] json object 2 </a>
+                    </div>
+                    <div class="nav-item passed">
+                        <a href="#[6:43]">[6:43] Spartan variable </a>
+                    </div>
                     <div class="nav-item passed">
                         <a href="#[7:59]">[7:59] json array objects </a>
                     </div>
@@ -62,23 +80,273 @@
                     <a href="karate-summary.html">Summary</a><span class="feature-label">|</span><a href="karate-tags.html">Tags</a><span class="feature-label">|</span><span class="feature-label">Feature:</span><span class="feature-name">features/FirstKarateTest.feature</span><span class="feature-description">welcome to karate</span>
                 </div>
                 <div class="scenario">
-                    <div class="scenario-heading" id="[7:59]">
+                    <div class="scenario-heading" id="[1:2]">
                         <div class="heading-container">
-                            <div class="scenario-tags">
-                                <a class="badge badge-primary" href="karate-tags.html">wip</a>
-                            </div>
-                            <span class="scenario-keyword">Scenario: [7:59]</span><span class="scenario-name">json array objects </span>
+                            <div class="scenario-tags"></div>
+                            <span class="scenario-keyword">Scenario: [1:2]</span><span class="scenario-name">how to print </span>
                         </div>
-                        <div class="scenario-time passed">ms: 191</div>
+                        <div class="scenario-time passed">ms: 127</div>
                     </div>
                     <div class="step-row">
                         <div class="step-container" id="1">
                             <div class="step-ref passed">1</div>
+                            <div class="step-cell passed">Given print "Hello World"</div>
+                        </div>
+                        <div class="time-cell passed">21</div>
+                    </div>
+                    <div class="preformatted" data-parent="1">14:32:16.695 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+14:32:16.718 [print] Hello World</div>
+                    <div class="step-row">
+                        <div class="step-container" id="2">
+                            <div class="step-ref passed">2</div>
+                            <div class="step-cell passed">When print "another print"</div>
+                        </div>
+                        <div class="time-cell passed">83</div>
+                    </div>
+                    <div class="preformatted" data-parent="2">14:32:16.802 [print] another print</div>
+                    <div class="step-row">
+                        <div class="step-container" id="3">
+                            <div class="step-ref passed">3</div>
+                            <div class="step-cell passed">Then print 'then print'</div>
+                        </div>
+                        <div class="time-cell passed">23</div>
+                    </div>
+                    <div class="preformatted" data-parent="3">14:32:16.825 [print] then print</div>
+                </div>
+                <div class="scenario">
+                    <div class="scenario-heading" id="[2:8]">
+                        <div class="heading-container">
+                            <div class="scenario-tags"></div>
+                            <span class="scenario-keyword">Scenario: [2:8]</span><span class="scenario-name">more printing </span>
+                        </div>
+                        <div class="scenario-time passed">ms: 208</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="4">
+                            <div class="step-ref passed">4</div>
+                            <div class="step-cell passed">Given print 'some word'</div>
+                        </div>
+                        <div class="time-cell passed">21</div>
+                    </div>
+                    <div class="preformatted" data-parent="4">14:32:16.699 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+14:32:16.720 [print] some word</div>
+                    <div class="step-row">
+                        <div class="step-container" id="5">
+                            <div class="step-ref passed">5</div>
+                            <div class="step-cell passed">* print 'my name is','karate kid'</div>
+                        </div>
+                        <div class="time-cell passed">174</div>
+                    </div>
+                    <div class="preformatted" data-parent="5">14:32:16.892 [print] my name is karate kid</div>
+                    <div class="step-row">
+                        <div class="step-container">
+                            <div class="step-ref passed"></div>
+                            <div class="step-cell comment"># , --&gt; concat two string</div>
+                        </div>
+                        <div class="time-cell comment"></div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="6">
+                            <div class="step-ref passed">6</div>
+                            <div class="step-cell passed">* print 2+2</div>
+                        </div>
+                        <div class="time-cell passed">13</div>
+                    </div>
+                    <div class="preformatted" data-parent="6">14:32:16.908 [print] 4</div>
+                </div>
+                <div class="scenario">
+                    <div class="scenario-heading" id="[3:16]">
+                        <div class="heading-container">
+                            <div class="scenario-tags"></div>
+                            <span class="scenario-keyword">Scenario: [3:16]</span><span class="scenario-name">variables </span>
+                        </div>
+                        <div class="scenario-time passed">ms: 133</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="7">
+                            <div class="step-ref passed">7</div>
+                            <div class="step-cell passed">* def name = 'Mike'</div>
+                        </div>
+                        <div class="time-cell passed">16</div>
+                    </div>
+                    <div class="preformatted" data-parent="7">14:32:16.850 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</div>
+                    <div class="step-row">
+                        <div class="step-container" id="8">
+                            <div class="step-ref passed">8</div>
+                            <div class="step-cell passed">* print 'my name is', name</div>
+                        </div>
+                        <div class="time-cell passed">91</div>
+                    </div>
+                    <div class="preformatted" data-parent="8">14:32:16.960 [print] my name is Mike</div>
+                    <div class="step-row">
+                        <div class="step-container" id="9">
+                            <div class="step-ref passed">9</div>
+                            <div class="step-cell passed">* def age = 20</div>
+                        </div>
+                        <div class="time-cell passed">10</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="10">
+                            <div class="step-ref passed">10</div>
+                            <div class="step-cell passed">* print name, 'is', age,'years old'</div>
+                        </div>
+                        <div class="time-cell passed">15</div>
+                    </div>
+                    <div class="preformatted" data-parent="10">14:32:16.986 [print] Mike is 20 years old</div>
+                </div>
+                <div class="scenario">
+                    <div class="scenario-heading" id="[4:22]">
+                        <div class="heading-container">
+                            <div class="scenario-tags"></div>
+                            <span class="scenario-keyword">Scenario: [4:22]</span><span class="scenario-name">difficult parameters: json object </span>
+                        </div>
+                        <div class="scenario-time passed">ms: 206</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="11">
+                            <div class="step-ref passed">11</div>
+                            <div class="step-cell passed">* def student = {'name':'sam','owes_tuition':false}</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="preformatted" data-parent="11">14:32:17.016 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</div>
+                    <div class="step-row">
+                        <div class="step-container" id="12">
+                            <div class="step-ref passed">12</div>
+                            <div class="step-cell passed">* print student</div>
+                        </div>
+                        <div class="time-cell passed">1</div>
+                    </div>
+                    <div class="preformatted" data-parent="12">14:32:17.018 [print] {
+  "name": "sam",
+  "owes_tuition": false
+}</div>
+                    <div class="step-row">
+                        <div class="step-container" id="13">
+                            <div class="step-ref passed">13</div>
+                            <div class="step-cell passed">* print student.name</div>
+                        </div>
+                        <div class="time-cell passed">176</div>
+                    </div>
+                    <div class="preformatted" data-parent="13">14:32:17.193 [print] sam</div>
+                    <div class="step-row">
+                        <div class="step-container" id="14">
+                            <div class="step-ref passed">14</div>
+                            <div class="step-cell passed">* print student.owes_tuition</div>
+                        </div>
+                        <div class="time-cell passed">29</div>
+                    </div>
+                    <div class="preformatted" data-parent="14">14:32:17.222 [print] false</div>
+                </div>
+                <div class="scenario">
+                    <div class="scenario-heading" id="[5:29]">
+                        <div class="heading-container">
+                            <div class="scenario-tags"></div>
+                            <span class="scenario-keyword">Scenario: [5:29]</span><span class="scenario-name">json object 2 </span>
+                        </div>
+                        <div class="scenario-time passed">ms: 94</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="15">
+                            <div class="step-ref passed">15</div>
+                            <div class="step-cell passed">* def student =</div>
+                        </div>
+                        <div class="time-cell passed">2</div>
+                    </div>
+                    <div class="preformatted" data-parent="15">{
+"firstName":"Steven",
+"lastName":"King",
+"salary":2000
+}
+14:32:16.955 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</div>
+                    <div class="step-row">
+                        <div class="step-container" id="16">
+                            <div class="step-ref passed">16</div>
+                            <div class="step-cell passed">* print student.salary</div>
+                        </div>
+                        <div class="time-cell passed">59</div>
+                    </div>
+                    <div class="preformatted" data-parent="16">14:32:17.016 [print] 2000</div>
+                    <div class="step-row">
+                        <div class="step-container" id="17">
+                            <div class="step-ref passed">17</div>
+                            <div class="step-cell passed">* print student.firstName</div>
+                        </div>
+                        <div class="time-cell passed">19</div>
+                    </div>
+                    <div class="preformatted" data-parent="17">14:32:17.036 [print] Steven</div>
+                    <div class="step-row">
+                        <div class="step-container" id="18">
+                            <div class="step-ref passed">18</div>
+                            <div class="step-cell passed">* print student.lastName</div>
+                        </div>
+                        <div class="time-cell passed">13</div>
+                    </div>
+                    <div class="preformatted" data-parent="18">14:32:17.050 [print] King</div>
+                </div>
+                <div class="scenario">
+                    <div class="scenario-heading" id="[6:43]">
+                        <div class="heading-container">
+                            <div class="scenario-tags"></div>
+                            <span class="scenario-keyword">Scenario: [6:43]</span><span class="scenario-name">Spartan variable </span>
+                        </div>
+                        <div class="scenario-time passed">ms: 114</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="19">
+                            <div class="step-ref passed">19</div>
+                            <div class="step-cell passed">* def spartan =</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="preformatted" data-parent="19">{
+    "id": 11,
+    "name": "Lionel Cola",
+    "gender": "Male",
+    "phone": 1231232145
+ }
+14:32:17.005 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</div>
+                    <div class="step-row">
+                        <div class="step-container" id="20">
+                            <div class="step-ref passed">20</div>
+                            <div class="step-cell passed">* print spartan.name</div>
+                        </div>
+                        <div class="time-cell passed">19</div>
+                    </div>
+                    <div class="preformatted" data-parent="20">14:32:17.025 [print] Lionel Cola</div>
+                    <div class="step-row">
+                        <div class="step-container" id="21">
+                            <div class="step-ref passed">21</div>
+                            <div class="step-cell passed">* print spartan.gender</div>
+                        </div>
+                        <div class="time-cell passed">22</div>
+                    </div>
+                    <div class="preformatted" data-parent="21">14:32:17.050 [print] Male</div>
+                    <div class="step-row">
+                        <div class="step-container" id="22">
+                            <div class="step-ref passed">22</div>
+                            <div class="step-cell passed">* print spartan.phone</div>
+                        </div>
+                        <div class="time-cell passed">72</div>
+                    </div>
+                    <div class="preformatted" data-parent="22">14:32:17.122 [print] 1231232145</div>
+                </div>
+                <div class="scenario">
+                    <div class="scenario-heading" id="[7:59]">
+                        <div class="heading-container">
+                            <div class="scenario-tags"></div>
+                            <span class="scenario-keyword">Scenario: [7:59]</span><span class="scenario-name">json array objects </span>
+                        </div>
+                        <div class="scenario-time passed">ms: 87</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="23">
+                            <div class="step-ref passed">23</div>
                             <div class="step-cell passed">* def students =</div>
                         </div>
-                        <div class="time-cell passed">88</div>
+                        <div class="time-cell passed">0</div>
                     </div>
-                    <div class="preformatted" data-parent="1">[
+                    <div class="preformatted" data-parent="23">[
 {
 'name':'sam',
 'owes_tuition':false
@@ -88,15 +356,15 @@
 'owes_tuition':true
 }
 ]
-17:29:58.456 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</div>
+14:32:17.174 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</div>
                     <div class="step-row">
-                        <div class="step-container" id="2">
-                            <div class="step-ref passed">2</div>
+                        <div class="step-container" id="24">
+                            <div class="step-ref passed">24</div>
                             <div class="step-cell passed">* print students</div>
                         </div>
-                        <div class="time-cell passed">1</div>
+                        <div class="time-cell passed">0</div>
                     </div>
-                    <div class="preformatted" data-parent="2">17:29:58.579 [print] [
+                    <div class="preformatted" data-parent="24">14:32:17.175 [print] [
   {
     "name": "sam",
     "owes_tuition": false
@@ -107,21 +375,21 @@
   }
 ]</div>
                     <div class="step-row">
-                        <div class="step-container" id="3">
-                            <div class="step-ref passed">3</div>
+                        <div class="step-container" id="25">
+                            <div class="step-ref passed">25</div>
                             <div class="step-cell passed">* print students[0].name</div>
                         </div>
-                        <div class="time-cell passed">87</div>
+                        <div class="time-cell passed">68</div>
                     </div>
-                    <div class="preformatted" data-parent="3">17:29:58.667 [print] sam</div>
+                    <div class="preformatted" data-parent="25">14:32:17.243 [print] sam</div>
                     <div class="step-row">
-                        <div class="step-container" id="4">
-                            <div class="step-ref passed">4</div>
+                        <div class="step-container" id="26">
+                            <div class="step-ref passed">26</div>
                             <div class="step-cell passed">* print students[1].owes_tuition</div>
                         </div>
-                        <div class="time-cell passed">15</div>
+                        <div class="time-cell passed">19</div>
                     </div>
-                    <div class="preformatted" data-parent="4">17:29:58.681 [print] true</div>
+                    <div class="preformatted" data-parent="26">14:32:17.259 [print] true</div>
                 </div>
             </div>
                 
