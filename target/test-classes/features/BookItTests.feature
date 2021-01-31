@@ -18,7 +18,7 @@ Feature: Bookit Api tests
       Then status 200
       And print response
       And match response == {"id":57,"firstName":"Ase","lastName":"Norval","role":"student-team-leader"}
-  @wip
+
   Scenario: get campus information
     Given url baseUrl
     And path 'api/campuses'
