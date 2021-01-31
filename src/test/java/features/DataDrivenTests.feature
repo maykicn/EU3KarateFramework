@@ -32,11 +32,67 @@ Feature:Data driven tests
 
     Examples:
   |read('data/users.csv')|
-  @wip
+
 Scenario: get user info verification (Database vs Api)
+    * def DBUtils = Java.type('utilities.DBUtils')
+    * def query = "select id,firstname,lastname,role from users where email = 'sbirdbj@fc2.com'"
+    * def dbResult = DBUtils.getRowMap(query)
+    * print '*********'
+    * print dbResult
+    * print '*********'
+    Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/'
+    And path 'sign'
+    And header Accept = 'application/json'
+    And param email = 'sbirdbj@fc2.com'
+    And param password = 'asenorval'
+    When method GET
+    Then status 200
+    And print response.accessToken
+    And def token = response.accessToken
+    Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/'
+    And path 'api/users/me'
+    And header Authorization = 'Bearer '+token
+    And header Accept = 'application/json'
+    When method GET
+    Then status 200
+    And print response
+    And match response.id == dbResult.id
+    And match response.firstName == dbResult.firstname
+    And match response.lastName == dbResult.lastname
+    And match response.role == dbResult.role
+
+  @wip
+  Scenario Outline: get user info verification (Database vs Api) <email>
+    * def DBUtils = Java.type('utilities.DBUtils')
+    * def query = "select id,firstname,lastname,role from users where email = '<email>'"
+    * def dbResult = DBUtils.getRowMap(query)
+    * print '*********'
+    * print dbResult
+    * print '*********'
+    Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/'
+    And path 'sign'
+    And header Accept = 'application/json'
+    And param email = '<email>'
+    And param password = '<password>'
+    When method GET
+    Then status 200
+    And print response.accessToken
+    And def token = response.accessToken
+    Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/'
+    And path 'api/users/me'
+    And header Authorization = 'Bearer '+token
+    And header Accept = 'application/json'
+    When method GET
+    Then status 200
+    And print response
+    And match response.id == dbResult.id
+    And match response.firstName == dbResult.firstname
+    And match response.lastName == dbResult.lastname
+    And match response.role == dbResult.role
 
 
-
+    Examples:
+      |read('data/users.csv')|
 
 
 
